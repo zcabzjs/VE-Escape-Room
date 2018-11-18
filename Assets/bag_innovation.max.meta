@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 366a5df50722c0a4fb349545ed5dd7f0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arch49_021_obj_00
+    100002: arch49_021_obj_01
+    100004: arch49_021_obj_03
+    100006: arch49_021_obj_03 1
+    100008: arch49_021_obj_04
+    100010: //RootNode
+    100012: Group004
+    100014: Group005
+    100016: Object001
+    100018: Object002
+    100020: Object003
+    100022: Object004
+    100024: Object005
+    100026: Object007
+    100028: Object009
+    100030: Object009 1
+    100032: Object010
+    100034: Object011
+    100036: Object013
+    100038: Object026
+    100040: Object027
+    100042: Object028
+    100044: Object029
+    100046: Object030
+    100048: Object031
+    100050: Object033
+    100052: Object034
+    100054: Object035
+    100056: Object036
+    100058: Object037
+    100060: Omni001
+    100062: Omni002
+    400000: arch49_021_obj_00
+    400002: arch49_021_obj_01
+    400004: arch49_021_obj_03
+    400006: arch49_021_obj_03 1
+    400008: arch49_021_obj_04
+    400010: //RootNode
+    400012: Group004
+    400014: Group005
+    400016: Object001
+    400018: Object002
+    400020: Object003
+    400022: Object004
+    400024: Object005
+    400026: Object007
+    400028: Object009
+    400030: Object009 1
+    400032: Object010
+    400034: Object011
+    400036: Object013
+    400038: Object026
+    400040: Object027
+    400042: Object028
+    400044: Object029
+    400046: Object030
+    400048: Object031
+    400050: Object033
+    400052: Object034
+    400054: Object035
+    400056: Object036
+    400058: Object037
+    400060: Omni001
+    400062: Omni002
+    2100000: 02 - Default
+    2100002: _cadnavdefault
+    2100004: 03 - Default
+    2100006: 'Material #0'
+    2100008: No Name
+    2100010: 07 - Default
+    2100012: 08 - Default
+    2300000: arch49_021_obj_00
+    2300002: arch49_021_obj_01
+    2300004: arch49_021_obj_03
+    2300006: arch49_021_obj_04
+    2300008: Object001
+    2300010: Object002
+    2300012: Object003
+    2300014: Object004
+    2300016: Object005
+    2300018: Object007
+    2300020: Object010
+    2300022: Object011
+    2300024: Object013
+    2300026: Object026
+    2300028: Object027
+    2300030: Object028
+    2300032: Object029
+    2300034: Object030
+    2300036: Object031
+    2300038: Object033
+    2300040: Object034
+    2300042: Object036
+    2300044: Object037
+    3300000: arch49_021_obj_00
+    3300002: arch49_021_obj_01
+    3300004: arch49_021_obj_03
+    3300006: arch49_021_obj_04
+    3300008: Object001
+    3300010: Object002
+    3300012: Object003
+    3300014: Object004
+    3300016: Object005
+    3300018: Object007
+    3300020: Object010
+    3300022: Object011
+    3300024: Object013
+    3300026: Object026
+    3300028: Object027
+    3300030: Object028
+    3300032: Object029
+    3300034: Object030
+    3300036: Object031
+    3300038: Object033
+    3300040: Object034
+    3300042: Object036
+    3300044: Object037
+    4300000: arch49_021_obj_00
+    4300002: arch49_021_obj_01
+    4300004: arch49_021_obj_03
+    4300006: arch49_021_obj_04
+    4300008: Object001
+    4300010: Object002
+    4300012: Object003
+    4300014: Object004
+    4300016: Object005
+    4300018: Object007
+    4300020: Object010
+    4300022: Object011
+    4300024: Object013
+    4300026: Object026
+    4300028: Object027
+    4300030: Object028
+    4300032: Object029
+    4300034: Object030
+    4300036: Object031
+    4300038: Object033
+    4300040: Object034
+    4300042: Object036
+    4300044: Object037
+    9500000: //RootNode
+    10800000: Omni001
+    10800002: Omni002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

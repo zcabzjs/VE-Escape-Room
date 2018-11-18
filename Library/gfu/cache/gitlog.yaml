@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-11-18T17:32:37.620+00:00
+  initializedAtString: 2018-11-18T17:14:22.145+00:00
+  log:
+  - commitID: f3225f09a8755d6f611a83da5f239d7a8201e9f8
+    mergeA: 
+    mergeB: 
+    authorName: Zi Jian Sim
+    authorEmail: zijian12345@hotmail.com
+    commitEmail: zijian12345@hotmail.com
+    commitName: Zi Jian Sim
+    summary: Adding ML files
+    description: Adding ML files
+    timeString: 2018-02-24T11:59:06.000+00:00
+    commitTimeString: 2018-02-24T11:59:06.000+00:00
+    changes:
+    - path: ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
+      fullPath: C:\Users\User\Documents\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
+      projectPath: ..\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Datasets\E0 (2).csv
+      fullPath: C:\Users\User\Documents\ML Prediction\Datasets\E0 (2).csv
+      projectPath: ..\ML Prediction\Datasets\E0 (2).csv
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Datasets\clubValues.csv
+      fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubValues.csv
+      projectPath: ..\ML Prediction\Datasets\clubValues.csv
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Datasets\clubdistance.csv
+      fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubdistance.csv
+      projectPath: ..\ML Prediction\Datasets\clubdistance.csv
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Datasets\epl-predictions.csv
+      fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-predictions.csv
+      projectPath: ..\ML Prediction\Datasets\epl-predictions.csv
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Datasets\epl-training.csv
+      fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-training.csv
+      projectPath: ..\ML Prediction\Datasets\epl-training.csv
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Datasets\fifaratings.csv
+      fullPath: C:\Users\User\Documents\ML Prediction\Datasets\fifaratings.csv
+      projectPath: ..\ML Prediction\Datasets\fifaratings.csv
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\EPL Predictions.ipynb
+      fullPath: C:\Users\User\Documents\ML Prediction\EPL Predictions.ipynb
+      projectPath: ..\ML Prediction\EPL Predictions.ipynb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\10.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\10.png
+      projectPath: ..\ML Prediction\Images\10.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\11.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\11.png
+      projectPath: ..\ML Prediction\Images\11.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\12.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\12.png
+      projectPath: ..\ML Prediction\Images\12.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\13.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\13.png
+      projectPath: ..\ML Prediction\Images\13.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\14.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\14.png
+      projectPath: ..\ML Prediction\Images\14.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\15.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\15.png
+      projectPath: ..\ML Prediction\Images\15.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\16.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\16.png
+      projectPath: ..\ML Prediction\Images\16.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\17.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\17.png
+      projectPath: ..\ML Prediction\Images\17.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\18.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\18.png
+      projectPath: ..\ML Prediction\Images\18.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\19.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\19.png
+      projectPath: ..\ML Prediction\Images\19.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\20.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\20.png
+      projectPath: ..\ML Prediction\Images\20.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\21.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\21.png
+      projectPath: ..\ML Prediction\Images\21.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\22.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\22.png
+      projectPath: ..\ML Prediction\Images\22.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\23.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\23.png
+      projectPath: ..\ML Prediction\Images\23.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\24.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\24.png
+      projectPath: ..\ML Prediction\Images\24.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\3.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\3.png
+      projectPath: ..\ML Prediction\Images\3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\4.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\4.png
+      projectPath: ..\ML Prediction\Images\4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\5.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\5.png
+      projectPath: ..\ML Prediction\Images\5.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\6.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\6.png
+      projectPath: ..\ML Prediction\Images\6.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\7.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\7.png
+      projectPath: ..\ML Prediction\Images\7.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\8.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\8.png
+      projectPath: ..\ML Prediction\Images\8.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Images\9.png
+      fullPath: C:\Users\User\Documents\ML Prediction\Images\9.png
+      projectPath: ..\ML Prediction\Images\9.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Scripts\clubscript.py
+      fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubscript.py
+      projectPath: ..\ML Prediction\Scripts\clubscript.py
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Scripts\clubvalue.py
+      fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubvalue.py
+      projectPath: ..\ML Prediction\Scripts\clubvalue.py
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ML Prediction\Scripts\fifaratings.py
+      fullPath: C:\Users\User\Documents\ML Prediction\Scripts\fifaratings.py
+      projectPath: ..\ML Prediction\Scripts\fifaratings.py
+      originalPath: 
+      status: 4
+      staged: 0
