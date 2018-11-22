@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 857, y: 492}
-  m_MaxSize: {x: 22012, y: 14042}
+  m_MinSize: {x: 849, y: 471}
+  m_MaxSize: {x: 22008, y: 14021}
   vertical: 0
-  controlID: 3778
+  controlID: 8023
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,10 +46,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 225.6
-    y: 453.6
-    width: 613
-    height: 349
+    x: 144.8
+    y: 92.8
+    width: 879
+    height: 385
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -61,17 +61,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -245.2
-    m_HBaseRangeMax: 245.2
-    m_VBaseRangeMin: -132.8
-    m_VBaseRangeMax: 132.8
+    m_HBaseRangeMin: -351.6
+    m_HBaseRangeMax: 351.6
+    m_VBaseRangeMin: -147.2
+    m_VBaseRangeMax: 147.2
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -82,25 +82,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 613
-      height: 332
-    m_Scale: {x: 2.7684612, y: 2.7684653}
-    m_Translation: {x: 428.18024, y: 135.04272}
+      width: 879
+      height: 368
+    m_Scale: {x: 1.25, y: 1.25}
+    m_Translation: {x: 439.5, y: 184}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -154.66362
-      y: -48.77891
-      width: 221.42264
-      height: 119.922035
+      x: -351.6
+      y: -147.2
+      width: 703.2
+      height: 294.4
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 766.25, y: 436.25}
+  m_LastWindowPixelSize: {x: 1098.75, y: 481.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -121,10 +121,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 223
+    width: 142
     height: 731
-  m_MinSize: {x: 142, y: 49}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 140, y: 28}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 4}
   m_Panes:
   - {fileID: 4}
@@ -151,7 +151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92.8
-    width: 221
+    width: 140
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   dragSelectMode: 2
@@ -168,17 +168,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 6}
-  - {fileID: 11}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
-    x: 223
+    x: 142
     y: 0
-    width: 617
+    width: 883
     height: 731
-  m_MinSize: {x: 204, y: 421}
+  m_MinSize: {x: 200, y: 321}
   m_MaxSize: {x: 4004, y: 8021}
   vertical: 1
-  controlID: 3779
+  controlID: 8024
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,18 +195,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 617
-    height: 361
+    width: 883
+    height: 406
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 7}
+  m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 7}
-  - {fileID: 8}
-  - {fileID: 9}
-  - {fileID: 10}
-  m_Selected: 0
-  m_LastSelected: 2
+  - {fileID: 2}
+  m_Selected: 1
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,20 +225,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 225.6
+    x: 228.8
     y: 92.8
-    width: 613
-    height: 340
+    width: 770
+    height: 385
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 561.1510281844638
+  lastFramingTime: 3430.5110295910017
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.4170628, y: 2.860124, z: -4.4984303}
+    m_Target: {x: 3.9281983, y: 1.4396361, z: -5.3527603}
     speed: 2
-    m_Value: {x: 4.4170628, y: 2.860124, z: -4.4984303}
+    m_Value: {x: 3.9281983, y: 1.4396361, z: -5.3527603}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -268,13 +266,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.09814064, y: 0.60559046, z: -0.07559508, w: -0.7860759}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.09814058, y: 0.6055901, z: -0.075595036, w: -0.7860754}
+    m_Value: {x: -0, y: 0, z: -0, w: -1}
   m_Size:
-    m_Target: 4.148909
+    m_Target: 22
     speed: 2
-    m_Value: 4.148909
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -293,67 +291,27 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 406
+    width: 883
+    height: 325
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 150.40001
-    y: 100
-    width: 866
-    height: 696
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_ViewTransforms:
-    m_KeySerializationHelper: []
-    m_ValueSerializationHelper: []
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 0}
-  m_BreadCrumbs: []
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
+  m_ActualView: {fileID: 10}
+  m_Panes:
+  - {fileID: 9}
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 264
-    y: 101.6
-    width: 753
-    height: 495
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,16 +331,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 100
-    width: 1009
-    height: 696
+    x: 144.8
+    y: 498.4
+    width: 879
+    height: 304
   m_PersistentViewDataDictionary: {fileID: 0}
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 8356
---- !u!114 &11
+  m_LastSelectedObjectID: -448782
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -390,23 +348,86 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 361
-    width: 617
-    height: 370
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 2}
-  m_Panes:
-  - {fileID: 2}
-  m_Selected: 0
-  m_LastSelected: 0
+    x: 144.8
+    y: 498.4
+    width: 879
+    height: 304
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 144.8
+    y: 498.4
+    width: 879
+    height: 304
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 1107025733554856278, guid: 5d76415c588b01b459dd125f4a0ad54b, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.97329336
+      e01: 0
+      e02: 0
+      e03: -59.163574
+      e10: 0
+      e11: 0.97329336
+      e12: 0
+      e13: -67.06117
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 5d76415c588b01b459dd125f4a0ad54b,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107025733554856278, guid: 5d76415c588b01b459dd125f4a0ad54b,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -423,14 +444,14 @@ MonoBehaviour:
   - {fileID: 15}
   m_Position:
     serializedVersion: 2
-    x: 840
+    x: 1025
     y: 0
-    width: 373
+    width: 234
     height: 731
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 234, y: 471}
+  m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 3744
+  controlID: 8003
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -447,7 +468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 373
+    width: 234
     height: 454
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -476,16 +497,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 842.4
+    x: 1027.2001
     y: 92.8
-    width: 369
+    width: 230
     height: 433
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 144}
-    m_SelectedIDs: dc1e0000
-    m_LastClickedID: 7900
-    m_ExpandedIDs: cefbffff000000007c200000fe200000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 9881f0ff
+    m_LastClickedID: 0
+    m_ExpandedIDs: fcf3ffffcefbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -525,7 +546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 454
-    width: 373
+    width: 234
     height: 277
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -554,9 +575,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 842.4
+    x: 1027.2001
     y: 546.4
-    width: 369
+    width: 230
     height: 256
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -571,19 +592,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Animations
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Animations
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\User\Documents\Escape Room Experiments
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 240f0000
-    m_LastClickedID: 3876
+    scrollPos: {x: 0, y: 63}
+    m_SelectedIDs: a8470000
+    m_LastClickedID: 18344
     m_ExpandedIDs: 00000000b80c00003c10000008110000ca1700002e180000ee1a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -637,9 +658,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: dc1e0000
-    m_LastClickedInstanceID: 7900
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 9881f0ff
+    m_LastClickedInstanceID: -1015400
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: fc050000da270000422d0000722f000000000000d20700003c130000ee390000c43e000046140000963d0000aa4000000c420100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -681,20 +702,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1213
+    x: 1259
     y: 0
-    width: 323
+    width: 277
     height: 731
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
-  - {fileID: 19}
-  - {fileID: 20}
-  - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 0
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -715,9 +733,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1215.2001
+    x: 1261.6
     y: 92.8
-    width: 321
+    width: 275
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -729,2015 +747,3 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 360}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Navigation
-    m_Image: {fileID: 7874161543223113035, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1212
-    y: 101.6
-    width: 318
-    height: 695
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Services
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1212
-    y: 101.6
-    width: 318
-    height: 695
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
-  m_GlobalObjectTypeName: 
-  m_RegisteredViewURLs:
-  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
-  m_RegisteredViewInstances:
-  - {fileID: 0}
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: GitHub
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1215.2001
-    y: 92.8
-    width: 321
-    height: 710
-  m_PersistentViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
-  notificationClearTime: -1
-  timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
-  initProjectView:
-    hasCompletedInitialCheck: 0
-    isUserDataPresent: 0
-    lastCheckUserChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 7
-  branchesView:
-    treeLocals:
-      IsRemote: 0
-      folders:
-        keys:
-        - Local branches
-        values:
-        - path: Local branches
-          label: Local branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Local branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Local branches
-        label: Local branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: master
-        label: master
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 1
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    treeRemotes:
-      IsRemote: 1
-      folders:
-        keys:
-        - Remote branches
-        - origin
-        values:
-        - path: Remote branches
-          label: Remote branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-        - path: origin
-          label: origin
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Remote branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin
-        label: origin
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: origin/master
-        label: master
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: origin/master
-        label: master
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    mode: 1
-    newBranchName: 
-    scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2018-11-18T17:15:18.195+00:00
-      cacheType: 2
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2018-11-18T17:31:05.205+00:00
-      cacheType: 1
-    currentBranch:
-      name: master
-      tracking: origin/master
-    currentRemote:
-      name: origin
-      url: git@github.com:zcabzjs/ML-EPL-Predictions.git
-      login: 
-      user: 
-      host: 
-      function: 0
-      token: 
-    localBranches:
-    - name: master
-      tracking: origin/master
-    remoteBranches:
-    - name: origin/master
-      tracking: '[None]'
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
-    commitBody: 
-    commitMessage: 
-    currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys:
-        - Library
-        values:
-        - path: Library
-          label: Library
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: \
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 1
-      isUsingGlobalSelection: 1
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library
-        label: Library
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\assetDatabase3
-        label: assetDatabase3
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\assetDatabase3
-          fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\assetDatabase3
-          projectPath: Library\assetDatabase3
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          status: 3
-          staged: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-    gitStatusEntries:
-    - path: Library\assetDatabase3
-      fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\assetDatabase3
-      projectPath: Library\assetDatabase3
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      originalPath: 
-      status: 3
-      staged: 0
-    changedFilesText: 2 changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-11-18T20:54:30.515+00:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-11-18T21:03:17.280+00:00
-      cacheType: 5
-    lastLocksChangedEvent:
-      updatedTimeString: 2018-11-18T21:03:17.434+00:00
-      cacheType: 6
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: f3225f09a8755d6f611a83da5f239d7a8201e9f8
-        mergeA: 
-        mergeB: 
-        authorName: Zi Jian Sim
-        authorEmail: zijian12345@hotmail.com
-        commitEmail: zijian12345@hotmail.com
-        commitName: Zi Jian Sim
-        summary: Adding ML files
-        description: Adding ML files
-        timeString: 2018-02-24T11:59:06.000+00:00
-        commitTimeString: 2018-02-24T11:59:06.000+00:00
-        changes:
-        - path: ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-          fullPath: C:\Users\User\Documents\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-          projectPath: ..\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Datasets\E0 (2).csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\E0 (2).csv
-          projectPath: ..\ML Prediction\Datasets\E0 (2).csv
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Datasets\clubValues.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubValues.csv
-          projectPath: ..\ML Prediction\Datasets\clubValues.csv
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Datasets\clubdistance.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubdistance.csv
-          projectPath: ..\ML Prediction\Datasets\clubdistance.csv
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Datasets\epl-predictions.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-predictions.csv
-          projectPath: ..\ML Prediction\Datasets\epl-predictions.csv
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Datasets\epl-training.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-training.csv
-          projectPath: ..\ML Prediction\Datasets\epl-training.csv
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Datasets\fifaratings.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\fifaratings.csv
-          projectPath: ..\ML Prediction\Datasets\fifaratings.csv
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\EPL Predictions.ipynb
-          fullPath: C:\Users\User\Documents\ML Prediction\EPL Predictions.ipynb
-          projectPath: ..\ML Prediction\EPL Predictions.ipynb
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\10.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\10.png
-          projectPath: ..\ML Prediction\Images\10.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\11.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\11.png
-          projectPath: ..\ML Prediction\Images\11.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\12.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\12.png
-          projectPath: ..\ML Prediction\Images\12.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\13.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\13.png
-          projectPath: ..\ML Prediction\Images\13.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\14.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\14.png
-          projectPath: ..\ML Prediction\Images\14.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\15.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\15.png
-          projectPath: ..\ML Prediction\Images\15.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\16.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\16.png
-          projectPath: ..\ML Prediction\Images\16.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\17.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\17.png
-          projectPath: ..\ML Prediction\Images\17.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\18.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\18.png
-          projectPath: ..\ML Prediction\Images\18.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\19.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\19.png
-          projectPath: ..\ML Prediction\Images\19.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\20.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\20.png
-          projectPath: ..\ML Prediction\Images\20.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\21.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\21.png
-          projectPath: ..\ML Prediction\Images\21.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\22.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\22.png
-          projectPath: ..\ML Prediction\Images\22.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\23.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\23.png
-          projectPath: ..\ML Prediction\Images\23.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\24.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\24.png
-          projectPath: ..\ML Prediction\Images\24.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\3.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\3.png
-          projectPath: ..\ML Prediction\Images\3.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\4.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\4.png
-          projectPath: ..\ML Prediction\Images\4.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\5.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\5.png
-          projectPath: ..\ML Prediction\Images\5.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\6.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\6.png
-          projectPath: ..\ML Prediction\Images\6.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\7.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\7.png
-          projectPath: ..\ML Prediction\Images\7.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\8.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\8.png
-          projectPath: ..\ML Prediction\Images\8.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Images\9.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\9.png
-          projectPath: ..\ML Prediction\Images\9.png
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Scripts\clubscript.py
-          fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubscript.py
-          projectPath: ..\ML Prediction\Scripts\clubscript.py
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Scripts\clubvalue.py
-          fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubvalue.py
-          projectPath: ..\ML Prediction\Scripts\clubvalue.py
-          originalPath: 
-          status: 4
-          staged: 0
-        - path: ML Prediction\Scripts\fifaratings.py
-          fullPath: C:\Users\User\Documents\ML Prediction\Scripts\fifaratings.py
-          projectPath: ..\ML Prediction\Scripts\fifaratings.py
-          originalPath: 
-          status: 4
-          staged: 0
-      statusAhead: 0
-      selectedIndex: 0
-    selectedEntry:
-      commitID: f3225f09a8755d6f611a83da5f239d7a8201e9f8
-      mergeA: 
-      mergeB: 
-      authorName: Zi Jian Sim
-      authorEmail: zijian12345@hotmail.com
-      commitEmail: zijian12345@hotmail.com
-      commitName: Zi Jian Sim
-      summary: Adding ML files
-      description: Adding ML files
-      timeString: 2018-02-24T11:59:06.000+00:00
-      commitTimeString: 2018-02-24T11:59:06.000+00:00
-      changes:
-      - path: ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        fullPath: C:\Users\User\Documents\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        projectPath: ..\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\E0 (2).csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\E0 (2).csv
-        projectPath: ..\ML Prediction\Datasets\E0 (2).csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\clubValues.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubValues.csv
-        projectPath: ..\ML Prediction\Datasets\clubValues.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\clubdistance.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubdistance.csv
-        projectPath: ..\ML Prediction\Datasets\clubdistance.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\epl-predictions.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-predictions.csv
-        projectPath: ..\ML Prediction\Datasets\epl-predictions.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\epl-training.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-training.csv
-        projectPath: ..\ML Prediction\Datasets\epl-training.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\fifaratings.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\fifaratings.csv
-        projectPath: ..\ML Prediction\Datasets\fifaratings.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\EPL Predictions.ipynb
-        fullPath: C:\Users\User\Documents\ML Prediction\EPL Predictions.ipynb
-        projectPath: ..\ML Prediction\EPL Predictions.ipynb
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\10.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\10.png
-        projectPath: ..\ML Prediction\Images\10.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\11.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\11.png
-        projectPath: ..\ML Prediction\Images\11.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\12.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\12.png
-        projectPath: ..\ML Prediction\Images\12.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\13.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\13.png
-        projectPath: ..\ML Prediction\Images\13.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\14.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\14.png
-        projectPath: ..\ML Prediction\Images\14.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\15.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\15.png
-        projectPath: ..\ML Prediction\Images\15.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\16.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\16.png
-        projectPath: ..\ML Prediction\Images\16.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\17.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\17.png
-        projectPath: ..\ML Prediction\Images\17.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\18.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\18.png
-        projectPath: ..\ML Prediction\Images\18.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\19.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\19.png
-        projectPath: ..\ML Prediction\Images\19.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\20.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\20.png
-        projectPath: ..\ML Prediction\Images\20.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\21.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\21.png
-        projectPath: ..\ML Prediction\Images\21.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\22.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\22.png
-        projectPath: ..\ML Prediction\Images\22.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\23.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\23.png
-        projectPath: ..\ML Prediction\Images\23.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\24.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\24.png
-        projectPath: ..\ML Prediction\Images\24.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\3.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\3.png
-        projectPath: ..\ML Prediction\Images\3.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\4.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\4.png
-        projectPath: ..\ML Prediction\Images\4.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\5.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\5.png
-        projectPath: ..\ML Prediction\Images\5.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\6.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\6.png
-        projectPath: ..\ML Prediction\Images\6.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\7.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\7.png
-        projectPath: ..\ML Prediction\Images\7.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\8.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\8.png
-        projectPath: ..\ML Prediction\Images\8.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\9.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\9.png
-        projectPath: ..\ML Prediction\Images\9.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Scripts\clubscript.py
-        fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubscript.py
-        projectPath: ..\ML Prediction\Scripts\clubscript.py
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Scripts\clubvalue.py
-        fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubvalue.py
-        projectPath: ..\ML Prediction\Scripts\clubvalue.py
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Scripts\fifaratings.py
-        fullPath: C:\Users\User\Documents\ML Prediction\Scripts\fifaratings.py
-        projectPath: ..\ML Prediction\Scripts\fifaratings.py
-        originalPath: 
-        status: 4
-        staged: 0
-    detailsScroll: {x: 0, y: 0}
-    logEntries:
-    - commitID: f3225f09a8755d6f611a83da5f239d7a8201e9f8
-      mergeA: 
-      mergeB: 
-      authorName: Zi Jian Sim
-      authorEmail: zijian12345@hotmail.com
-      commitEmail: zijian12345@hotmail.com
-      commitName: Zi Jian Sim
-      summary: Adding ML files
-      description: Adding ML files
-      timeString: 2018-02-24T11:59:06.000+00:00
-      commitTimeString: 2018-02-24T11:59:06.000+00:00
-      changes:
-      - path: ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        fullPath: C:\Users\User\Documents\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        projectPath: ..\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\E0 (2).csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\E0 (2).csv
-        projectPath: ..\ML Prediction\Datasets\E0 (2).csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\clubValues.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubValues.csv
-        projectPath: ..\ML Prediction\Datasets\clubValues.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\clubdistance.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubdistance.csv
-        projectPath: ..\ML Prediction\Datasets\clubdistance.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\epl-predictions.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-predictions.csv
-        projectPath: ..\ML Prediction\Datasets\epl-predictions.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\epl-training.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-training.csv
-        projectPath: ..\ML Prediction\Datasets\epl-training.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Datasets\fifaratings.csv
-        fullPath: C:\Users\User\Documents\ML Prediction\Datasets\fifaratings.csv
-        projectPath: ..\ML Prediction\Datasets\fifaratings.csv
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\EPL Predictions.ipynb
-        fullPath: C:\Users\User\Documents\ML Prediction\EPL Predictions.ipynb
-        projectPath: ..\ML Prediction\EPL Predictions.ipynb
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\10.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\10.png
-        projectPath: ..\ML Prediction\Images\10.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\11.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\11.png
-        projectPath: ..\ML Prediction\Images\11.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\12.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\12.png
-        projectPath: ..\ML Prediction\Images\12.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\13.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\13.png
-        projectPath: ..\ML Prediction\Images\13.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\14.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\14.png
-        projectPath: ..\ML Prediction\Images\14.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\15.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\15.png
-        projectPath: ..\ML Prediction\Images\15.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\16.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\16.png
-        projectPath: ..\ML Prediction\Images\16.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\17.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\17.png
-        projectPath: ..\ML Prediction\Images\17.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\18.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\18.png
-        projectPath: ..\ML Prediction\Images\18.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\19.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\19.png
-        projectPath: ..\ML Prediction\Images\19.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\20.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\20.png
-        projectPath: ..\ML Prediction\Images\20.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\21.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\21.png
-        projectPath: ..\ML Prediction\Images\21.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\22.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\22.png
-        projectPath: ..\ML Prediction\Images\22.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\23.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\23.png
-        projectPath: ..\ML Prediction\Images\23.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\24.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\24.png
-        projectPath: ..\ML Prediction\Images\24.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\3.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\3.png
-        projectPath: ..\ML Prediction\Images\3.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\4.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\4.png
-        projectPath: ..\ML Prediction\Images\4.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\5.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\5.png
-        projectPath: ..\ML Prediction\Images\5.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\6.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\6.png
-        projectPath: ..\ML Prediction\Images\6.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\7.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\7.png
-        projectPath: ..\ML Prediction\Images\7.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\8.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\8.png
-        projectPath: ..\ML Prediction\Images\8.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Images\9.png
-        fullPath: C:\Users\User\Documents\ML Prediction\Images\9.png
-        projectPath: ..\ML Prediction\Images\9.png
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Scripts\clubscript.py
-        fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubscript.py
-        projectPath: ..\ML Prediction\Scripts\clubscript.py
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Scripts\clubvalue.py
-        fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubvalue.py
-        projectPath: ..\ML Prediction\Scripts\clubvalue.py
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ML Prediction\Scripts\fifaratings.py
-        fullPath: C:\Users\User\Documents\ML Prediction\Scripts\fifaratings.py
-        projectPath: ..\ML Prediction\Scripts\fifaratings.py
-        originalPath: 
-        status: 4
-        staged: 0
-    statusAhead: 0
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys:
-        - ML Prediction
-        - ML Prediction\.ipynb_checkpoints
-        - ML Prediction\Datasets
-        - ML Prediction\Images
-        - ML Prediction\Scripts
-        values:
-        - path: ML Prediction
-          label: ML Prediction
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ML Prediction\.ipynb_checkpoints
-          label: .ipynb_checkpoints
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ML Prediction\Datasets
-          label: Datasets
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ML Prediction\Images
-          label: Images
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ML Prediction\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: \
-      displayRootNode: 0
-      isSelectable: 0
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ML Prediction
-        label: ML Prediction
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ML Prediction\.ipynb_checkpoints
-        label: .ipynb_checkpoints
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-        label: EPL Predictions-checkpoint.ipynb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-          fullPath: C:\Users\User\Documents\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-          projectPath: ..\ML Prediction\.ipynb_checkpoints\EPL Predictions-checkpoint.ipynb
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Datasets
-        label: Datasets
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ML Prediction\Datasets\E0 (2).csv
-        label: E0 (2).csv
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Datasets\E0 (2).csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\E0 (2).csv
-          projectPath: ..\ML Prediction\Datasets\E0 (2).csv
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Datasets\clubValues.csv
-        label: clubValues.csv
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Datasets\clubValues.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubValues.csv
-          projectPath: ..\ML Prediction\Datasets\clubValues.csv
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Datasets\clubdistance.csv
-        label: clubdistance.csv
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Datasets\clubdistance.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\clubdistance.csv
-          projectPath: ..\ML Prediction\Datasets\clubdistance.csv
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Datasets\epl-predictions.csv
-        label: epl-predictions.csv
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Datasets\epl-predictions.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-predictions.csv
-          projectPath: ..\ML Prediction\Datasets\epl-predictions.csv
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Datasets\epl-training.csv
-        label: epl-training.csv
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Datasets\epl-training.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\epl-training.csv
-          projectPath: ..\ML Prediction\Datasets\epl-training.csv
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Datasets\fifaratings.csv
-        label: fifaratings.csv
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Datasets\fifaratings.csv
-          fullPath: C:\Users\User\Documents\ML Prediction\Datasets\fifaratings.csv
-          projectPath: ..\ML Prediction\Datasets\fifaratings.csv
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\EPL Predictions.ipynb
-        label: EPL Predictions.ipynb
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\EPL Predictions.ipynb
-          fullPath: C:\Users\User\Documents\ML Prediction\EPL Predictions.ipynb
-          projectPath: ..\ML Prediction\EPL Predictions.ipynb
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images
-        label: Images
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ML Prediction\Images\10.png
-        label: 10.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\10.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\10.png
-          projectPath: ..\ML Prediction\Images\10.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\11.png
-        label: 11.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\11.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\11.png
-          projectPath: ..\ML Prediction\Images\11.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\12.png
-        label: 12.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\12.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\12.png
-          projectPath: ..\ML Prediction\Images\12.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\13.png
-        label: 13.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\13.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\13.png
-          projectPath: ..\ML Prediction\Images\13.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\14.png
-        label: 14.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\14.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\14.png
-          projectPath: ..\ML Prediction\Images\14.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\15.png
-        label: 15.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\15.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\15.png
-          projectPath: ..\ML Prediction\Images\15.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\16.png
-        label: 16.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\16.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\16.png
-          projectPath: ..\ML Prediction\Images\16.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\17.png
-        label: 17.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\17.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\17.png
-          projectPath: ..\ML Prediction\Images\17.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\18.png
-        label: 18.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\18.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\18.png
-          projectPath: ..\ML Prediction\Images\18.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\19.png
-        label: 19.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\19.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\19.png
-          projectPath: ..\ML Prediction\Images\19.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\20.png
-        label: 20.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\20.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\20.png
-          projectPath: ..\ML Prediction\Images\20.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\21.png
-        label: 21.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\21.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\21.png
-          projectPath: ..\ML Prediction\Images\21.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\22.png
-        label: 22.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\22.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\22.png
-          projectPath: ..\ML Prediction\Images\22.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\23.png
-        label: 23.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\23.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\23.png
-          projectPath: ..\ML Prediction\Images\23.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\24.png
-        label: 24.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\24.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\24.png
-          projectPath: ..\ML Prediction\Images\24.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\3.png
-        label: 3.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\3.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\3.png
-          projectPath: ..\ML Prediction\Images\3.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\4.png
-        label: 4.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\4.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\4.png
-          projectPath: ..\ML Prediction\Images\4.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\5.png
-        label: 5.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\5.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\5.png
-          projectPath: ..\ML Prediction\Images\5.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\6.png
-        label: 6.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\6.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\6.png
-          projectPath: ..\ML Prediction\Images\6.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\7.png
-        label: 7.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\7.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\7.png
-          projectPath: ..\ML Prediction\Images\7.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\8.png
-        label: 8.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\8.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\8.png
-          projectPath: ..\ML Prediction\Images\8.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Images\9.png
-        label: 9.png
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Images\9.png
-          fullPath: C:\Users\User\Documents\ML Prediction\Images\9.png
-          projectPath: ..\ML Prediction\Images\9.png
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ML Prediction\Scripts\clubscript.py
-        label: clubscript.py
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Scripts\clubscript.py
-          fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubscript.py
-          projectPath: ..\ML Prediction\Scripts\clubscript.py
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Scripts\clubvalue.py
-        label: clubvalue.py
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Scripts\clubvalue.py
-          fullPath: C:\Users\User\Documents\ML Prediction\Scripts\clubvalue.py
-          projectPath: ..\ML Prediction\Scripts\clubvalue.py
-          originalPath: 
-          status: 4
-          staged: 0
-      - path: ML Prediction\Scripts\fifaratings.py
-        label: fifaratings.py
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ML Prediction\Scripts\fifaratings.py
-          fullPath: C:\Users\User\Documents\ML Prediction\Scripts\fifaratings.py
-          projectPath: ..\ML Prediction\Scripts\fifaratings.py
-          originalPath: 
-          status: 4
-          staged: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2018-11-18T17:32:37.620+00:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 4
-  settingsView:
-    gitPathView:
-      gitPath: C:\Users\User\AppData\Local\GitHubUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\User\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
-      errorMessage: 
-      resetToBundled: 0
-      resetToSystem: 0
-      changingManually: 0
-    hasRemote: 1
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2018-11-18T17:31:05.205+00:00
-      cacheType: 1
-    metricsEnabled: 1
-    newRepositoryRemoteUrl: git@github.com:zcabzjs/ML-EPL-Predictions.git
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: git@github.com:zcabzjs/ML-EPL-Predictions.git
-    scroll: {x: 0, y: 0}
-    userSettingsView:
-      gitName: Zi Jian Sim
-      gitEmail: zijian12345@hotmail.com
-      newGitName: Zi Jian Sim
-      newGitEmail: zijian12345@hotmail.com
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2018-11-18T17:32:02.552+00:00
-        cacheType: 7
-    webTimeout: 3000
-    gitTimeout: 5000
-  locksView:
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    currentUserHasUpdate: 0
-    locksControl:
-      scroll: {x: 0, y: 0}
-      gitLockEntries: []
-      assets:
-        keys: []
-        values: []
-      gitStatusDictionary:
-        keys: []
-        values: []
-      selectedEntry:
-        gitLock:
-          id: 
-          path: 
-          owner:
-            name: 
-            email: 
-          lockedAtString: 
-        gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 00:00
-    lastLocksChangedEvent:
-      updatedTimeString: 2018-11-18T17:32:02.369+00:00
-      cacheType: 6
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-11-18T17:32:02.369+00:00
-      cacheType: 6
-    lastUserChangedEvent:
-      updatedTimeString: 2018-11-18T17:32:02.552+00:00
-      cacheType: 7
-    lockedFiles: []
-    gitStatusEntries: []
-    currentUsername: zcabzjs
-    unlockFileMenuContent:
-      m_Text: Release Lock
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-    forceUnlockFileMenuContent:
-      m_Text: Release Lock (forced)
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-  hasRemote: 1
-  currentRemoteName: origin
-  currentBranch: master
-  currentRemoteUrl: git@github.com:zcabzjs/VE-Escape-Room.git
-  statusAhead: 0
-  statusBehind: 0
-  hasItemsToCommit: 1
-  isTrackingRemoteBranch: 1
-  currentBranchContent:
-    m_Text: master
-    m_Image: {fileID: 0}
-    m_Tooltip: Active branch
-  currentRemoteUrlContent:
-    m_Text: git@github.com:zcabzjs/VE-Escape-Room.git
-    m_Image: {fileID: 0}
-    m_Tooltip: Url of the origin remote
-  lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-11-18T20:54:30.515+00:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-11-18T20:54:38.113+00:00
-    cacheType: 4
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-11-18T20:54:38.017+00:00
-    cacheType: 5
-  pullButtonContent:
-    m_Text: Pull
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  pushButtonContent:
-    m_Text: Push
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  refreshButtonContent:
-    m_Text: Refresh
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  fetchButtonContent:
-    m_Text: Fetch
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0.5
-  appManagerProgressMessage: Setting up git...
