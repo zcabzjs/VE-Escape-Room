@@ -21,14 +21,18 @@ public class DoorMovement : MonoBehaviour {
             if(Physics.Raycast(ray.origin, ray.direction, out raycastHit, Mathf.Infinity))
             {
                 Debug.Log("Mouse Click!");
-                if (doorOpen)
+                if(raycastHit.transform.name == "Door")
                 {
-                    closeDoor();
+                    if (doorOpen)
+                    {
+                        closeDoor();
+                    }
+                    else
+                    {
+                        openDoor();
+                    }
                 }
-                else
-                {
-                    openDoor();
-                }
+
             }
         }
 	}

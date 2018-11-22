@@ -12,12 +12,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-22T02:36:19.043+00:00
-  initializedAtString: 2018-11-22T00:32:03.790+00:00
+  lastUpdatedAtString: 2018-11-22T17:07:14.419+00:00
+  initializedAtString: 2018-11-22T13:07:03.413+00:00
   entries:
-  - path: Assets\Animations.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations.meta
-    projectPath: Assets\Animations.meta
+  - path: Assets\Animations\BedroomDoor.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BedroomDoor.controller
+    projectPath: Assets\Animations\BedroomDoor.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\BedroomDoor.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BedroomDoor.controller.meta
+    projectPath: Assets\Animations\BedroomDoor.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\BedroomDoorClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BedroomDoorClose.anim
+    projectPath: Assets\Animations\BedroomDoorClose.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\BedroomDoorClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BedroomDoorClose.anim.meta
+    projectPath: Assets\Animations\BedroomDoorClose.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\BedroomDoorOpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BedroomDoorOpen.anim
+    projectPath: Assets\Animations\BedroomDoorOpen.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\BedroomDoorOpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BedroomDoorOpen.anim.meta
+    projectPath: Assets\Animations\BedroomDoorOpen.anim.meta
     originalPath: 
     status: 1
     staged: 0
@@ -25,59 +55,325 @@ MonoBehaviour:
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BinClose.anim
     projectPath: Assets\Animations\BinClose.anim
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animations\BinClose.anim.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BinClose.anim.meta
-    projectPath: Assets\Animations\BinClose.anim.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Animations\BinOpen.anim
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BinOpen.anim
     projectPath: Assets\Animations\BinOpen.anim
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets\Animations\BinOpen.anim.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\BinOpen.anim.meta
-    projectPath: Assets\Animations\BinOpen.anim.meta
+  - path: Assets\Animations\bookshelfLClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfLClose.anim
+    projectPath: Assets\Animations\bookshelfLClose.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animations\Door.controller
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Door.controller
-    projectPath: Assets\Animations\Door.controller
+  - path: Assets\Animations\bookshelfLClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfLClose.anim.meta
+    projectPath: Assets\Animations\bookshelfLClose.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animations\Door.controller.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Door.controller.meta
-    projectPath: Assets\Animations\Door.controller.meta
+  - path: Assets\Animations\bookshelfLOpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfLOpen.anim
+    projectPath: Assets\Animations\bookshelfLOpen.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animations\DoorClose.anim
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\DoorClose.anim
-    projectPath: Assets\Animations\DoorClose.anim
+  - path: Assets\Animations\bookshelfLOpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfLOpen.anim.meta
+    projectPath: Assets\Animations\bookshelfLOpen.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animations\DoorClose.anim.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\DoorClose.anim.meta
-    projectPath: Assets\Animations\DoorClose.anim.meta
+  - path: Assets\Animations\bookshelfRClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfRClose.anim
+    projectPath: Assets\Animations\bookshelfRClose.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animations\DoorOpen.anim
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\DoorOpen.anim
-    projectPath: Assets\Animations\DoorOpen.anim
+  - path: Assets\Animations\bookshelfRClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfRClose.anim.meta
+    projectPath: Assets\Animations\bookshelfRClose.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animations\DoorOpen.anim.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\DoorOpen.anim.meta
-    projectPath: Assets\Animations\DoorOpen.anim.meta
+  - path: Assets\Animations\bookshelfROpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfROpen.anim
+    projectPath: Assets\Animations\bookshelfROpen.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\bookshelfROpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\bookshelfROpen.anim.meta
+    projectPath: Assets\Animations\bookshelfROpen.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\door_L.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\door_L.controller
+    projectPath: Assets\Animations\door_L.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\door_L.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\door_L.controller.meta
+    projectPath: Assets\Animations\door_L.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\door_R.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\door_R.controller
+    projectPath: Assets\Animations\door_R.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\door_R.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\door_R.controller.meta
+    projectPath: Assets\Animations\door_R.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Drawer.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Drawer.controller
+    projectPath: Assets\Animations\Drawer.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Drawer.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Drawer.controller.meta
+    projectPath: Assets\Animations\Drawer.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Drawer2.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Drawer2.controller
+    projectPath: Assets\Animations\Drawer2.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Drawer2.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Drawer2.controller.meta
+    projectPath: Assets\Animations\Drawer2.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Drawer3.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Drawer3.controller
+    projectPath: Assets\Animations\Drawer3.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Drawer3.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Drawer3.controller.meta
+    projectPath: Assets\Animations\Drawer3.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_01.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_01.controller
+    projectPath: Assets\Animations\handle_01.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_01.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_01.controller.meta
+    projectPath: Assets\Animations\handle_01.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_02.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_02.controller
+    projectPath: Assets\Animations\handle_02.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_02.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_02.controller.meta
+    projectPath: Assets\Animations\handle_02.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_03.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_03.controller
+    projectPath: Assets\Animations\handle_03.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_03.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_03.controller.meta
+    projectPath: Assets\Animations\handle_03.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_04.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_04.controller
+    projectPath: Assets\Animations\handle_04.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_04.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_04.controller.meta
+    projectPath: Assets\Animations\handle_04.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_05.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_05.controller
+    projectPath: Assets\Animations\handle_05.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_05.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_05.controller.meta
+    projectPath: Assets\Animations\handle_05.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_06.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_06.controller
+    projectPath: Assets\Animations\handle_06.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle_06.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle_06.controller.meta
+    projectPath: Assets\Animations\handle_06.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle3Close.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle3Close.anim
+    projectPath: Assets\Animations\handle3Close.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle3Close.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle3Close.anim.meta
+    projectPath: Assets\Animations\handle3Close.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle3Open.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle3Open.anim
+    projectPath: Assets\Animations\handle3Open.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle3Open.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle3Open.anim.meta
+    projectPath: Assets\Animations\handle3Open.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle4Close.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle4Close.anim
+    projectPath: Assets\Animations\handle4Close.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle4Close.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle4Close.anim.meta
+    projectPath: Assets\Animations\handle4Close.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle4Open.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle4Open.anim
+    projectPath: Assets\Animations\handle4Open.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle4Open.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle4Open.anim.meta
+    projectPath: Assets\Animations\handle4Open.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle5Close.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle5Close.anim
+    projectPath: Assets\Animations\handle5Close.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle5Close.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle5Close.anim.meta
+    projectPath: Assets\Animations\handle5Close.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle5Open.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle5Open.anim
+    projectPath: Assets\Animations\handle5Open.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle5Open.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle5Open.anim.meta
+    projectPath: Assets\Animations\handle5Open.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle6Close.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle6Close.anim
+    projectPath: Assets\Animations\handle6Close.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle6Close.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle6Close.anim.meta
+    projectPath: Assets\Animations\handle6Close.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle6Open.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle6Open.anim
+    projectPath: Assets\Animations\handle6Open.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\handle6Open.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\handle6Open.anim.meta
+    projectPath: Assets\Animations\handle6Open.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Long Drawer.controller
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Long
+      Drawer.controller
+    projectPath: Assets\Animations\Long Drawer.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Long Drawer.controller.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Long
+      Drawer.controller.meta
+    projectPath: Assets\Animations\Long Drawer.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\LongDrawerClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\LongDrawerClose.anim
+    projectPath: Assets\Animations\LongDrawerClose.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\LongDrawerClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\LongDrawerClose.anim.meta
+    projectPath: Assets\Animations\LongDrawerClose.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\LongDrawerOpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\LongDrawerOpen.anim
+    projectPath: Assets\Animations\LongDrawerOpen.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\LongDrawerOpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\LongDrawerOpen.anim.meta
+    projectPath: Assets\Animations\LongDrawerOpen.anim.meta
     originalPath: 
     status: 1
     staged: 0
@@ -86,24 +382,149 @@ MonoBehaviour:
       3ds.controller
     projectPath: Assets\Animations\Rubbish_Bin_By_Berken 3ds.controller
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets\Animations\Rubbish_Bin_By_Berken 3ds.controller.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\Rubbish_Bin_By_Berken
-      3ds.controller.meta
-    projectPath: Assets\Animations\Rubbish_Bin_By_Berken 3ds.controller.meta
+  - path: Assets\Animations\TableDrawer2Close.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer2Close.anim
+    projectPath: Assets\Animations\TableDrawer2Close.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\CollectTrash.cs
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\CollectTrash.cs
-    projectPath: Assets\CollectTrash.cs
+  - path: Assets\Animations\TableDrawer2Close.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer2Close.anim.meta
+    projectPath: Assets\Animations\TableDrawer2Close.anim.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\CollectTrash.cs.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\CollectTrash.cs.meta
-    projectPath: Assets\CollectTrash.cs.meta
+  - path: Assets\Animations\TableDrawer2Open.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer2Open.anim
+    projectPath: Assets\Animations\TableDrawer2Open.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawer2Open.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer2Open.anim.meta
+    projectPath: Assets\Animations\TableDrawer2Open.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawer3Close.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer3Close.anim
+    projectPath: Assets\Animations\TableDrawer3Close.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawer3Close.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer3Close.anim.meta
+    projectPath: Assets\Animations\TableDrawer3Close.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawer3Open.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer3Open.anim
+    projectPath: Assets\Animations\TableDrawer3Open.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawer3Open.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawer3Open.anim.meta
+    projectPath: Assets\Animations\TableDrawer3Open.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawerClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawerClose.anim
+    projectPath: Assets\Animations\TableDrawerClose.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawerClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawerClose.anim.meta
+    projectPath: Assets\Animations\TableDrawerClose.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawerOpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawerOpen.anim
+    projectPath: Assets\Animations\TableDrawerOpen.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\TableDrawerOpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\TableDrawerOpen.anim.meta
+    projectPath: Assets\Animations\TableDrawerOpen.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeLDoorClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeLDoorClose.anim
+    projectPath: Assets\Animations\wardrobeLDoorClose.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeLDoorClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeLDoorClose.anim.meta
+    projectPath: Assets\Animations\wardrobeLDoorClose.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeLDoorOpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeLDoorOpen.anim
+    projectPath: Assets\Animations\wardrobeLDoorOpen.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeLDoorOpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeLDoorOpen.anim.meta
+    projectPath: Assets\Animations\wardrobeLDoorOpen.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeRDoorClose.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeRDoorClose.anim
+    projectPath: Assets\Animations\wardrobeRDoorClose.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeRDoorClose.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeRDoorClose.anim.meta
+    projectPath: Assets\Animations\wardrobeRDoorClose.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeRDoorOpen.anim
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeRDoorOpen.anim
+    projectPath: Assets\Animations\wardrobeRDoorOpen.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\wardrobeRDoorOpen.anim.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Animations\wardrobeRDoorOpen.anim.meta
+    projectPath: Assets\Animations\wardrobeRDoorOpen.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\BedroomDoorAnimation.cs
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\BedroomDoorAnimation.cs
+    projectPath: Assets\BedroomDoorAnimation.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\BedroomDoorAnimation.cs.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\BedroomDoorAnimation.cs.meta
+    projectPath: Assets\BedroomDoorAnimation.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Door.3ds
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Door.3ds
+    projectPath: Assets\Door.3ds
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Door.3ds.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Door.3ds.meta
+    projectPath: Assets\Door.3ds.meta
     originalPath: 
     status: 1
     staged: 0
@@ -111,20 +532,69 @@ MonoBehaviour:
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\DoorMovement.cs
     projectPath: Assets\DoorMovement.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\DoorMovement.cs.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\DoorMovement.cs.meta
-    projectPath: Assets\DoorMovement.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Materials\Ceiling Light Material.mat
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Materials\Ceiling
-      Light Material.mat
-    projectPath: Assets\Materials\Ceiling Light Material.mat
-    originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Prefabs\BedroomDoor.prefab
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\BedroomDoor.prefab
+    projectPath: Assets\Prefabs\BedroomDoor.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\BedroomDoor.prefab.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\BedroomDoor.prefab.meta
+    projectPath: Assets\Prefabs\BedroomDoor.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\bookshelf_3DS.prefab
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bookshelf_3DS.prefab
+    projectPath: Assets\Prefabs\bookshelf_3DS.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\bookshelf_3DS.prefab.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bookshelf_3DS.prefab.meta
+    projectPath: Assets\Prefabs\bookshelf_3DS.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\Table.prefab
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\Table.prefab
+    projectPath: Assets\Prefabs\Table.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\Table.prefab.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\Table.prefab.meta
+    projectPath: Assets\Prefabs\Table.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\Trash Can.prefab
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\Trash
+      Can.prefab
+    projectPath: Assets\Prefabs\Trash Can.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\Trash Can.prefab.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\Trash
+      Can.prefab.meta
+    projectPath: Assets\Prefabs\Trash Can.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\wardrobe_FBX.prefab
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\wardrobe_FBX.prefab
+    projectPath: Assets\Prefabs\wardrobe_FBX.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\wardrobe_FBX.prefab.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\wardrobe_FBX.prefab.meta
+    projectPath: Assets\Prefabs\wardrobe_FBX.prefab.meta
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets\ProBuilder Data\ProBuilderPreferences.asset
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\ProBuilder Data\ProBuilderPreferences.asset
@@ -142,35 +612,53 @@ MonoBehaviour:
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Scenes\Scene2.unity
     projectPath: Assets\Scenes\Scene2.unity
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets\Scenes\Scene2.unity.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Scenes\Scene2.unity.meta
-    projectPath: Assets\Scenes\Scene2.unity.meta
+  - path: Assets\shelfAnimation.cs
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\shelfAnimation.cs
+    projectPath: Assets\shelfAnimation.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\SideQuest.cs
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\SideQuest.cs
-    projectPath: Assets\SideQuest.cs
+  - path: Assets\shelfAnimation.cs.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\shelfAnimation.cs.meta
+    projectPath: Assets\shelfAnimation.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\SideQuest.cs.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\SideQuest.cs.meta
-    projectPath: Assets\SideQuest.cs.meta
+  - path: Assets\TableAnimations.cs
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\TableAnimations.cs
+    projectPath: Assets\TableAnimations.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Table.prefab
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Table.prefab
-    projectPath: Assets\Table.prefab
+  - path: Assets\TableAnimations.cs.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\TableAnimations.cs.meta
+    projectPath: Assets\TableAnimations.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Table.prefab.meta
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Table.prefab.meta
-    projectPath: Assets\Table.prefab.meta
+  - path: Assets\trashCanAnimation.cs
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\trashCanAnimation.cs
+    projectPath: Assets\trashCanAnimation.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\trashCanAnimation.cs.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\trashCanAnimation.cs.meta
+    projectPath: Assets\trashCanAnimation.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\wardrobeAnimation.cs
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\wardrobeAnimation.cs
+    projectPath: Assets\wardrobeAnimation.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\wardrobeAnimation.cs.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\wardrobeAnimation.cs.meta
+    projectPath: Assets\wardrobeAnimation.cs.meta
     originalPath: 
     status: 1
     staged: 0
@@ -183,18 +671,6 @@ MonoBehaviour:
   - path: Library\assetDatabase3
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -222,24 +698,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\10\10399eca6bb81934e96ed02361ec3226.info
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\metadata\10\10399eca6bb81934e96ed02361ec3226.info
-    projectPath: Library\metadata\10\10399eca6bb81934e96ed02361ec3226.info
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -255,12 +713,6 @@ MonoBehaviour:
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Users\User\Documents\Escape Room Experiments\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     status: 3
     staged: 0
