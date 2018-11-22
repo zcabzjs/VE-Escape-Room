@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-11-18T17:15:18.195+00:00
-  initializedAtString: 2018-11-18T17:15:18.167+00:00
+  lastUpdatedAtString: 2018-11-22T17:08:11.836+00:00
+  initializedAtString: 2018-11-22T17:08:11.735+00:00
   localBranches:
   - name: master
     tracking: origin/master
@@ -22,7 +22,7 @@ MonoBehaviour:
     tracking: '[None]'
   remotes:
   - name: origin
-    url: git@github.com:zcabzjs/ML-EPL-Predictions.git
+    url: git@github.com:zcabzjs/VE-Escape-Room.git
     login: 
     user: 
     host: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     - name: master
       remote:
         name: origin
-        url: git@github.com:zcabzjs/ML-EPL-Predictions.git
+        url: git@github.com:zcabzjs/VE-Escape-Room.git
       trackingBranch: master
   remoteConfigBranches:
     keys:
@@ -48,11 +48,11 @@ MonoBehaviour:
       - name: master
         remote:
           name: origin
-          url: git@github.com:zcabzjs/ML-EPL-Predictions.git
+          url: git@github.com:zcabzjs/VE-Escape-Room.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: git@github.com:zcabzjs/ML-EPL-Predictions.git
+      url: git@github.com:zcabzjs/VE-Escape-Room.git
