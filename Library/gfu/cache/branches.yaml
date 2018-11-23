@@ -12,17 +12,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-11-22T17:08:11.836+00:00
-  initializedAtString: 2018-11-22T17:08:11.735+00:00
+  lastUpdatedAtString: 2018-11-23T00:35:38.618+00:00
+  initializedAtString: 2018-11-23T00:35:38.602+00:00
   localBranches:
+  - name: interaction
+    tracking: 
+  - name: intereaction
+    tracking: 
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
-    url: git@github.com:zcabzjs/VE-Escape-Room.git
+    url: https://github.com/zcabzjs/VE-Escape-Room.git
     login: 
     user: 
     host: 
@@ -30,29 +36,47 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - interaction
+    - intereaction
     - master
     values:
+    - name: interaction
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: intereaction
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
-        url: git@github.com:zcabzjs/VE-Escape-Room.git
+        url: https://github.com/zcabzjs/VE-Escape-Room.git
       trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - HEAD
       - master
     subKeyValues:
     - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/zcabzjs/VE-Escape-Room.git
+        trackingBranch: 
       - name: master
         remote:
           name: origin
-          url: git@github.com:zcabzjs/VE-Escape-Room.git
+          url: https://github.com/zcabzjs/VE-Escape-Room.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: git@github.com:zcabzjs/VE-Escape-Room.git
+      url: https://github.com/zcabzjs/VE-Escape-Room.git
