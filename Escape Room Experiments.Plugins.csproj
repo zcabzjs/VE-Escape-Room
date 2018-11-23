@@ -253,9 +253,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/User/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -388,19 +385,6 @@
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
-    <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\HighlighGlobal.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-    <None Include="Assets\SteamVR\readme.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />

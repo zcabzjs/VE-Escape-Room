@@ -1,19 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape Room Experiments", "Escape Room Experiments.csproj", "{5DE298A8-274C-232A-E416-9B01F6A1CC4E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{07A21C90-D344-AE1A-8456-9910C203B41A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape Room Experiments.Plugins", "Escape Room Experiments.Plugins.csproj", "{8CF2F7DB-8C93-ECF8-E08E-F6A210DE7017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape Room Experiments", "Escape Room Experiments.csproj", "{5DE298A8-274C-232A-E416-9B01F6A1CC4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProGrids", "Unity.ProGrids.csproj", "{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape Room Experiments.Editor.Plugins", "Escape Room Experiments.Editor.Plugins.csproj", "{56206D7E-1632-D240-0191-D7E3DB39E301}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escape Room Experiments.Editor", "Escape Room Experiments.Editor.csproj", "{553AADE8-880B-1784-4704-52E3AF5631B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProGrids.Editor", "Unity.ProGrids.Editor.csproj", "{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}"
 EndProject
@@ -29,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07A21C90-D344-AE1A-8456-9910C203B41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A21C90-D344-AE1A-8456-9910C203B41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +35,10 @@ Global
 		{8CF2F7DB-8C93-ECF8-E08E-F6A210DE7017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CF2F7DB-8C93-ECF8-E08E-F6A210DE7017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CF2F7DB-8C93-ECF8-E08E-F6A210DE7017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE298A8-274C-232A-E416-9B01F6A1CC4E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,10 +51,6 @@ Global
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{553AADE8-880B-1784-4704-52E3AF5631B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{553AADE8-880B-1784-4704-52E3AF5631B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{553AADE8-880B-1784-4704-52E3AF5631B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{553AADE8-880B-1784-4704-52E3AF5631B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}.Release|Any CPU.ActiveCfg = Release|Any CPU

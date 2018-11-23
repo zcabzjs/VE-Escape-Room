@@ -286,8 +286,26 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+    <Reference Include="AsyncBridge.Net35">
+      <HintPath>Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api">
+      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity">
+      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="ReadOnlyCollectionsInterfaces">
+      <HintPath>Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/User/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -327,27 +345,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="AsyncBridge.Net35">
-      <HintPath>Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api">
-      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity">
-      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll</HintPath>
@@ -431,19 +428,6 @@
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
-    <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\HighlighGlobal.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-    <None Include="Assets\SteamVR\readme.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
