@@ -12,6 +12,108 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-23T00:27:30.644+00:00
-  initializedAtString: 2018-11-23T00:25:12.595+00:00
-  entries: []
+  lastUpdatedAtString: 2018-11-23T00:56:10.592+00:00
+  initializedAtString: 2018-11-23T00:41:19.933+00:00
+  entries:
+  - path: Assets\Prefabs\bed.FBX
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bed.FBX
+    projectPath: Assets\Prefabs\bed.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\bed.FBX.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bed.FBX.meta
+    projectPath: Assets\Prefabs\bed.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\bed.max
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bed.max
+    projectPath: Assets\Prefabs\bed.max
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Prefabs\bed.max.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bed.max.meta
+    projectPath: Assets\Prefabs\bed.max.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Prefabs\bed_backup.max
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bed_backup.max
+    projectPath: Assets\Prefabs\bed_backup.max
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Prefabs\bed_backup.max.meta
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Prefabs\bed_backup.max.meta
+    projectPath: Assets\Prefabs\bed_backup.max.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\2f\2fc4836d80f430845a0db03ce5fb7b25
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\metadata\2f\2fc4836d80f430845a0db03ce5fb7b25
+    projectPath: Library\metadata\2f\2fc4836d80f430845a0db03ce5fb7b25
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\2f\2fc4836d80f430845a0db03ce5fb7b25.info
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\metadata\2f\2fc4836d80f430845a0db03ce5fb7b25.info
+    projectPath: Library\metadata\2f\2fc4836d80f430845a0db03ce5fb7b25.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\User\Documents\Escape Room Experiments\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
