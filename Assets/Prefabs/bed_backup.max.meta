@@ -33,6 +33,8 @@ ModelImporter:
     400026: VRayLight003.Target
     2100000: 'Material #26'
     2100002: 'Material #25'
+    2100004: 'Material #3'
+    2100006: 'Material #2'
     2300000: bed
     2300002: ChamferBox001
     2300004: cover
