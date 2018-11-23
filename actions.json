@@ -36,6 +36,14 @@
       "requirement": "optional"
     },
     {
+      "name": "/actions/default/in/TouchPadMove",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/TriggerAction",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -112,7 +120,9 @@
       "/actions/buggybuddy/in/Brake": "Brake",
       "/actions/buggybuddy/in/Reset": "Reset",
       "/actions/platformer/in/Move": "Move",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/default/in/TouchPadMove": "TouchPad Move",
+      "/actions/default/in/TriggerAction": "Trigger Action"
     }
   ]
 }
