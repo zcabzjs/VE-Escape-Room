@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class wardrobeAnimation : MonoBehaviour {
 
-    public GameObject leftDoor;
-    public GameObject rightDoor;
+    
     public GameObject handle3;
     public GameObject handle4;
     public GameObject handle5;
     public GameObject handle6;
 
-    bool leftDoorOpen;
-    bool rightDoorOpen;
+
+    
     bool handle3Open;
     bool handle4Open;
     bool handle5Open;
     bool handle6Open;
 
-    Animator leftDoorAnim;
-    Animator rightDoorAnim;
+
+    
     Animator handle3Anim;
     Animator handle4Anim;
     Animator handle5Anim;
@@ -27,8 +26,7 @@ public class wardrobeAnimation : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        leftDoorAnim = leftDoor.GetComponent<Animator>();
-        rightDoorAnim = rightDoor.GetComponent<Animator>();
+        
         handle3Anim = handle3.GetComponent<Animator>();
         handle4Anim = handle4.GetComponent<Animator>();
         handle5Anim = handle5.GetComponent<Animator>();
@@ -45,33 +43,7 @@ public class wardrobeAnimation : MonoBehaviour {
 
             if (Physics.Raycast(ray.origin, ray.direction, out raycastHit, Mathf.Infinity))
             {
-                if (raycastHit.transform.name == "handle_01")
-                {
-                    if (leftDoorOpen)
-                    {
-                        leftDoorAnim.SetBool("openWardrobe", false);
-                        leftDoorOpen = false;
-                    }
-                    else
-                    {
-                        leftDoorAnim.SetBool("openWardrobe", true);
-                        leftDoorOpen = true;
-                    }
-                }
-                else if (raycastHit.transform.name == "handle_02")
-                {
-                    if (rightDoorOpen)
-                    {
-                        rightDoorAnim.SetBool("openWardrobe", false);
-                        rightDoorOpen = false;
-                    }
-                    else
-                    {
-                        rightDoorAnim.SetBool("openWardrobe", true);
-                        rightDoorOpen = true;
-                    }
-                }
-                else if(raycastHit.transform.name == "handle_03")
+                if(raycastHit.transform.name == "handle_03")
                 {
                     if (handle3Open)
                     {
