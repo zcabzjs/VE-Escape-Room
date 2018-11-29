@@ -216,6 +216,7 @@ namespace Valve.VR.InteractionSystem
             isHovering = true;
             if (hand.IsTriggerPulled())
             {
+                print("BLAHHHHHH");
                 BroadcastMessage("Trigger");
             }
         }

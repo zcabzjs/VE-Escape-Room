@@ -6,17 +6,22 @@ public class InteractableActionsFlashlight : MonoBehaviour {
 
     public GameObject spotlight;
     public GameObject lense;
+    
 
     private Light light;
     bool onState = false;
+    public bool batteryState = false;
 
     private MeshRenderer lenseMR;
 
     void OnHoldTrigger()
     {
-        onState = !onState;
-        light.enabled = onState;
-        lenseMR.enabled = onState;
+        if (batteryState)
+        {
+            onState = !onState;
+            light.enabled = onState;
+            lenseMR.enabled = onState;
+        }
     }
 
     // Use this for initialization
