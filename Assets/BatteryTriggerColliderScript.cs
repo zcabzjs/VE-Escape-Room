@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BatteryTriggerColliderScript : MonoBehaviour {
 
-    private bool isFlashlightInRange = false;
+    public bool isFlashlightInRange = false;
     public GameObject flashLight;
 
     void OnTriggerEnter(Collider other)
