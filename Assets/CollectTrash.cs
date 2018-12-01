@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CollectTrash : MonoBehaviour {
 
-    public SideQuest sideQuest;
-    
 	// Use this for initialization
 	void Start () {
 		
@@ -22,7 +20,7 @@ public class CollectTrash : MonoBehaviour {
         {
             if (other.gameObject.CompareTag("Trash"))
             {  
-                sideQuest.AddTrash(other.gameObject);
+                SideQuest.AddTrash(other.gameObject);
                 
             }
         }
@@ -34,7 +32,7 @@ public class CollectTrash : MonoBehaviour {
         {
             if (other.gameObject.CompareTag("Trash"))
             {
-                sideQuest.RemoveTrash(other.gameObject);
+                SideQuest.RemoveTrash(other.gameObject);
             }
         }
 
