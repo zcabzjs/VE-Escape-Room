@@ -14,7 +14,10 @@ public class BedroomDoorAnimation : MonoBehaviour {
 
     void Trigger()
     {
-        bedroomDoorOpen = !bedroomDoorOpen;
-        bedroomDoorAnim.SetBool("openDoor", bedroomDoorOpen);
+        if (LevelManager.tutorialCompleted)
+        {
+            bedroomDoorOpen = !bedroomDoorOpen;
+            bedroomDoorAnim.SetBool("openDoor", bedroomDoorOpen);
+        }
     }
 }
