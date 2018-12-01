@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class SideQuest : MonoBehaviour {
 
-    public int targetNumber = 3;
-    public int collectedTrash = 0;
-    public List<GameObject> trashList;
+    public static int targetNumber = 3;
+    public static int collectedTrash = 0;
+    public static List<GameObject> trashList;
 
-    public void AddTrash(GameObject obj)
+    public static void AddTrash(GameObject obj)
     {
         
         if (!trashList.Contains(obj))
@@ -25,7 +25,7 @@ public class SideQuest : MonoBehaviour {
         
     }
 
-    public void RemoveTrash(GameObject obj)
+    public static void RemoveTrash(GameObject obj)
     {
         if (trashList.Contains(obj))
         {
