@@ -9,6 +9,7 @@ public class AttachUSB : MonoBehaviour {
     bool inHolderRange = false;
     Vector3 usbHolderPosition;
     Quaternion usbHolderRotation;
+    Rigidbody rb;
     // Use this for initialization
     /*
     public void OnHoldTrigger()
@@ -19,6 +20,10 @@ public class AttachUSB : MonoBehaviour {
             this.transform.rotation = usbHolderRotation;
         }
     }*/
+    void Start()
+    {
+        rb = this.transform.gameObject.GetComponent<Rigidbody>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -27,12 +32,16 @@ public class AttachUSB : MonoBehaviour {
             Debug.Log("Detected USB Holder");
             //this.transform.parent = other.transform;
             inHolderRange = true;
+
+            rb.constraints = RigidbodyConstraints.FreezePositionY;
             this.transform.position = other.transform.position;
             this.transform.rotation = other.transform.rotation;
 
             GameObject hand = this.transform.parent.gameObject;
             hand.GetComponent<Hand>().DetachObject(this.gameObject);
 
+            
+            
             //usbHolderPosition = other.transform.position;
             //usbHolderRotation = other.transform.rotation;
 
