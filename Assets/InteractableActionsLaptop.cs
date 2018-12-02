@@ -50,7 +50,7 @@ public class InteractableActionsLaptop : MonoBehaviour {
         yield return new WaitForSecondsRealtime(5);
         turnOff();
         LevelManager.CompleteTutorial();
-        alexa.GetComponent<AudioSource>().Pause();
+        
     }
 
     // Use this for initialization

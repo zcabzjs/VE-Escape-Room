@@ -18,6 +18,7 @@ public class LevelManager : MonoBehaviour {
         // Do stuff here related to the completion ??
         // Turn shit off
         hasElectricity = false;
+        GameObject.Find("AmazonEcho").GetComponent<AudioSource>().Pause();
         // Insert voiceline here? Or cues...
     }
 
