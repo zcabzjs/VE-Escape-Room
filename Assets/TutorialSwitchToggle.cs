@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class TutorialSwitchToggle : MonoBehaviour {
 
-    bool turnedOn = false;
+    public bool turnedOn = false;
+
     GameObject switchPivot;
     // Use this for initialization
     void Start () {
@@ -19,7 +20,6 @@ public class TutorialSwitchToggle : MonoBehaviour {
             Debug.Log("Tutorial started!");
             switchPivot.transform.Rotate(10, 0, 0);
             turnedOn = true;
-            LevelManager.CompleteTutorial();
         }        
 
     }

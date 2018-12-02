@@ -24,8 +24,8 @@ public class ViveController : MonoBehaviour
         Vector2 touchPadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any);
         if (touchPadValue != Vector2.zero)
         {
-            print(touchPadValue.x);
-            print(touchPadValue.y);
+            //print(touchPadValue.x);
+            //print(touchPadValue.y);
 
             float h = touchPadValue.x;
             float v = touchPadValue.y;

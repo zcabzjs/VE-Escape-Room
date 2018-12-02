@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour {
 
     public static bool tutorialCompleted;     //  flag for completion of tutorial
 
-    public static bool hasElectricity;        //  flag for after electricity is triggered
+    public static bool hasElectricity = true;        //  flag for after electricity is triggered
 
     public static bool usbInserted;           //  flag for after USB is inserted (Assuming USB can only be put in after theres electricity...)
 

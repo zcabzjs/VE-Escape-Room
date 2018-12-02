@@ -3261,7 +3261,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1594
+  m_Name: pb_Mesh-1606
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3676,7 +3676,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh10996
+  m_Name: pb_Mesh11036
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7278,7 +7278,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100006, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
   - {fileID: 2100012, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
-  - {fileID: 2100000, guid: 196fab7bab3658848bbaffe372bd5b7b, type: 2}
+  - {fileID: 2100000, guid: 0c89459923428e64b96e532fd7bd13dc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7344,7 +7344,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh9792
+  m_Name: pb_Mesh9808
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8203,14 +8203,14 @@ MeshRenderer:
   m_GameObject: {fileID: 669029193}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 45d09ea4c61aed440b7a87114d4b9233, type: 2}
+  - {fileID: 2100000, guid: a3384ef3e2313034f9016ad8a1f3999f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8357,6 +8357,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 8c1fe49c78b0d8b4a8e9a2e1463ebe50, type: 3}
+      propertyPath: m_Name
+      value: AmazonEcho
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c1fe49c78b0d8b4a8e9a2e1463ebe50, type: 3}
   m_IsPrefabAsset: 0
@@ -8374,9 +8378,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 96a8d8b5dc377ef4dab440e89345fe6d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.36
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -12230,7 +12234,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh11056
+  m_Name: pb_Mesh11096
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16342,7 +16346,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh10760
+  m_Name: pb_Mesh10798
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -48079,17 +48083,9 @@ MonoBehaviour:
     angleError: 8
     areaError: 15
   dontDestroyMeshOnDelete: 0
-  m_selectedFaces: 05000000
-  m_SelectedEdges:
-  - x: 22
-    y: 23
-  - x: 25
-    y: 22
-  - x: 23
-    y: 24
-  - x: 24
-    y: 25
-  m_selectedTriangles: 16000000170000001900000018000000
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &1501578262
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -48157,6 +48153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ceae8cfd49abe64c8a7a710a526da77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnedOn: 0
 --- !u!95 &1501578266
 Animator:
   serializedVersion: 3
@@ -71119,6 +71116,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa47a73161c5b61499f0b8fb5288d670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alexa: {fileID: 674817036}
+  wallSocket: {fileID: 1501578259}
+  materials:
+  - {fileID: 2100000, guid: 0c89459923428e64b96e532fd7bd13dc, type: 2}
+  - {fileID: 2100000, guid: 196fab7bab3658848bbaffe372bd5b7b, type: 2}
 --- !u!1 &2009703153
 GameObject:
   m_ObjectHideFlags: 0
@@ -71642,7 +71644,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh10528
+  m_Name: pb_Mesh10564
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
