@@ -65,7 +65,7 @@ public class ViveController : MonoBehaviour
 
 
             float speed = Mathf.Sqrt(h * h + v * v);
-            float speedMultipler = 0.1f;
+            float speedMultipler = 0.05f;
 
             if (h != 0 || v != 0)
             {

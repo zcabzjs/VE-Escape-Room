@@ -5,6 +5,8 @@ using Valve.VR;
 
 public class UITutorialTrigger : MonoBehaviour {
 
+    public GameObject UITutorialNext;
+
     // Use this for initialization
     void Start () {
 		
@@ -17,6 +19,7 @@ public class UITutorialTrigger : MonoBehaviour {
             if (SteamVR_Input._default.inActions.TriggerAction.GetStateDown(SteamVR_Input_Sources.Any))
             {
                 print("Trigger delete");
+                //ITutorialNext.GetComponent<MeshRenderer>().enabled = true;
                 Destroy(GameObject.Find("UITutorialTrigger"));
             }
         }

@@ -27,13 +27,13 @@ public class AttachUSB : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.transform.name == "USB Holder")
+        if(other.transform.name == "Laptop USB Holder")
         {
             Debug.Log("Detected USB Holder");
             //this.transform.parent = other.transform;
             inHolderRange = true;
 
-            rb.constraints = RigidbodyConstraints.FreezePositionY;
+            rb.constraints = RigidbodyConstraints.FreezeAll;
             this.transform.position = other.transform.position;
             this.transform.rotation = other.transform.rotation;
 

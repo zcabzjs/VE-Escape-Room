@@ -5,7 +5,7 @@ using Valve.VR;
 
 public class UITutorialDpad : MonoBehaviour {
 
-    public GameObject UITutorialGrab;
+    public GameObject UITutorialNext;
 
     // Use this for initialization
     void Start () {
@@ -18,7 +18,7 @@ public class UITutorialDpad : MonoBehaviour {
         {
             if (SteamVR_Input._default.inActions.TriggerAction.GetStateDown(SteamVR_Input_Sources.Any))
             {
-                UITutorialGrab.GetComponent<MeshRenderer>().enabled = true;
+                //UITutorialNext.GetComponent<MeshRenderer>().enabled = true;
                 Destroy(GameObject.Find("UITutorialDpad"));
             }
         }

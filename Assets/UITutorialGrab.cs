@@ -6,7 +6,7 @@ using Valve.VR;
 
 public class UITutorialGrab : MonoBehaviour {
 
-    public GameObject UITutorialTrigger;
+    //public GameObject UITutorialTrigger;
 
     // Use this for initialization
     void Start () {
@@ -19,7 +19,7 @@ public class UITutorialGrab : MonoBehaviour {
         {
             if (SteamVR_Input._default.inActions.TriggerAction.GetStateDown(SteamVR_Input_Sources.Any))
             {
-                UITutorialTrigger.GetComponent<MeshRenderer>().enabled = true;
+                //UITutorialTrigger.GetComponent<MeshRenderer>().enabled = true;
                 Destroy(GameObject.Find("UITutorialGrab"));
             }
         }

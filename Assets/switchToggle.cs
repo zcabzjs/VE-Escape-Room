@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class switchToggle : MonoBehaviour {
 
-    bool switchOn = false;
+    bool switchOn = true;
     public ceilingLightToggle ceilingLightToggle;
     
     GameObject switchPivot;
