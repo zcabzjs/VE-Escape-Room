@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class InteractableActionsKeyMusic : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject musicPuzzleCollider;
 
-    void onHoldTrigger()
+    private void Start()
     {
 
+    }
+
+    // When the trigger is pulled
+    void OnHoldTrigger()
+    {
+        // If the key is in range, it will allow the door to open.
+        if (musicPuzzleCollider.GetComponent<MusicBoxDoorCollider>().Check())
+        {
+            // If the key is in range, destory the key
+            Destroy(GameObject.Find("KeyMusic"));
+        }
     }
 }
