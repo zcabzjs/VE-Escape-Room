@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class InteractableActionsMPLever : MonoBehaviour {
 
+    public GameObject musicManager;
+
     Animator animator;
+    bool resultFromManager;
 
 	// Use this for initialization
 	void Start () {
         animator = GetComponent<Animator>();
+        //musicManager = GameObject.Find("MusicPuzzleManager");
 	}
 	
 	// Update is called once per frame
@@ -18,7 +22,19 @@ public class InteractableActionsMPLever : MonoBehaviour {
 
     public void Trigger()
     {
-        animator.SetTrigger("");
+        animator.SetTrigger("tryAnswer");
+        bool resultFromManager = musicManager.GetComponent<MusicPuzzleManagerScriptV2>().CheckCorrect();
+        if (!resultFromManager)
+        {
+            StartCoroutine(AutoPullUpLever());
+        }
+    }
+
+    IEnumerator AutoPullUpLever()
+    {
+        yield return new WaitForSecondsRealtime(2);
+        animator.SetTrigger("wrongAnswer");
+
     }
 
 }

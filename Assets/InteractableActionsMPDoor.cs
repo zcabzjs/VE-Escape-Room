@@ -21,8 +21,11 @@ public class InteractableActionsMPDoor : MonoBehaviour {
 
     void Trigger()
     {
+        print(isKeyOnDoor);
         if (isKeyOnDoor)
         {
+            print("Interact with door");
+            print(doorOpenState);
             doorOpenState = !doorOpenState;
             animation.SetBool("openMusicPuzzle", doorOpenState);
         }

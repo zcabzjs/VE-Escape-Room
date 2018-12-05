@@ -14,6 +14,7 @@ public class InteractableActionsKeyMusic : MonoBehaviour {
     // When the trigger is pulled
     void OnHoldTrigger()
     {
+        //print("Trigger is pulled while holding Music Key");
         // If the key is in range, it will allow the door to open.
         if (musicPuzzleCollider.GetComponent<MusicBoxDoorCollider>().Check())
         {

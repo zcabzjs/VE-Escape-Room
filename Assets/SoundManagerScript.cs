@@ -20,7 +20,13 @@ public class SoundManagerScript : MonoBehaviour {
     {
         for (int x = 0; x < notes.Length; x++)
         {
-
+            if(notes[x] == -1)
+            {
+                continue;
+            } else
+            {
+                audioNoteSources[notes[x]].GetComponent<AudioSource>().Play();
+            }
         }
     }
 }

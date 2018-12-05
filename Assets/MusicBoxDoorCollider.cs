@@ -10,7 +10,8 @@ public class MusicBoxDoorCollider : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "KeyMusic")
+        //print(other.gameObject.name);
+        if (other.gameObject.name == "KeyMusicCollder1")
         {
             isMusicKeyInRange = true;
             print(isMusicKeyInRange);
@@ -19,7 +20,8 @@ public class MusicBoxDoorCollider : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "KeyMusic")
+        //print(other.gameObject.name);
+        if (other.gameObject.name == "KeyMusicCollder1")
         {
             isMusicKeyInRange = false;
             print(isMusicKeyInRange);
@@ -29,6 +31,7 @@ public class MusicBoxDoorCollider : MonoBehaviour {
     // This function is called from the KeyMusic Trigger() function
     public bool Check()
     {
+        //print("Check has been called!");
         if (isMusicKeyInRange)
         {
             door.GetComponent<InteractableActionsMPDoor>().isKeyOnDoor = true;

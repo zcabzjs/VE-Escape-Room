@@ -8,6 +8,6 @@ public class InteractableActionsMPSubmit : MonoBehaviour {
 
     void Trigger()
     {
-        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().checkCorrect();
+        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().CheckCorrect();
     }
 }
