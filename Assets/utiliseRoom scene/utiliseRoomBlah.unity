@@ -4426,6 +4426,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 259329549}
+  interactablesDisabled:
+  - {fileID: 1096307293}
   isMusicKeyInRange: 0
 --- !u!65 &231527400
 BoxCollider:
@@ -4673,7 +4675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &259329550
 Transform:
   m_ObjectHideFlags: 0
@@ -4703,7 +4705,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 6f37946e31bc4400ea5b75d893866380, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -21455,7 +21457,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1045441411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5693257, y: 0.817, z: -0.833}
+  m_LocalPosition: {x: 2.5693257, y: 1.173, z: -0.833}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1359969041}
@@ -22776,7 +22778,7 @@ GameObject:
   - component: {fileID: 1096307297}
   - component: {fileID: 1096307296}
   m_Layer: 0
-  m_Name: lever_pivot
+  m_Name: LeverPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

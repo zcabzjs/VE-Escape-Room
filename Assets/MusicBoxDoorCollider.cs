@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class MusicBoxDoorCollider : MonoBehaviour {
 
     public GameObject door;
+    public GameObject[] interactablesDisabled;
 
     public bool isMusicKeyInRange = false;
 
@@ -35,6 +38,13 @@ public class MusicBoxDoorCollider : MonoBehaviour {
         if (isMusicKeyInRange)
         {
             door.GetComponent<InteractableActionsMPDoor>().isKeyOnDoor = true;
+            // Activate interactables
+
+            for (int x = 0; x < interactablesDisabled.Length; x++)
+            {
+                interactablesDisabled[x].GetComponent<Interactable>().enabled = true;
+            }
+
             return true;
         }
         return false;

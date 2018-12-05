@@ -26,7 +26,10 @@ public class MusicPuzzleManagerScriptV2 : MonoBehaviour {
             }
         }
         soundManager.GetComponent<SoundManagerScript>().PlayEntry(entries);
-
+        if (result)
+        {
+            powerLight.GetComponent<MeshRenderer>().material = materials[1];
+        }
         return result;
     }
 
