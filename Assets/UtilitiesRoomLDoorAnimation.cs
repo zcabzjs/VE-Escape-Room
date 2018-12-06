@@ -17,6 +17,7 @@ public class UtilitiesRoomLDoorAnimation : MonoBehaviour {
 	// Update is called once per frame
     void Trigger()
     {
+        print("skjfklsdj");
         if (LevelManager.utilitiesRoomUnlocked)
         {
             doorOpen = !doorOpen;
