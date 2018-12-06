@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour {
 
+    public GameObject musicPuzzleManager;
     public GameObject[] audioNoteSources;
+    public GameObject audioSuccess;
     public int[] timing;
     public float timingScaling;
+
+    public GameObject lever;
 
     bool[] notePlayed = new bool[] {false, false, false, false, false, false, false, false };
 
@@ -28,7 +32,7 @@ public class SoundManagerScript : MonoBehaviour {
         }
     }
 
-    public void PlayEntry(int[] notes)
+    public void PlayEntry(int[] notes, bool correct)
     {
         ResetNotePlayed();
         /*
@@ -54,9 +58,31 @@ public class SoundManagerScript : MonoBehaviour {
                 StartCoroutine(QueueAudio(notes[x], x, timing[x]));
             }
         }
+        if (!correct)
+        {
+            StartCoroutine(PullLever());
+        } else
+        {
+            StartCoroutine(TurnOnLED());
+        }
     }
 
     // Timing 
+
+    IEnumerator TurnOnLED()
+    {
+        yield return new WaitUntil(() => notePlayed[notePlayed.Length - 1] == true);
+        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().TurnOnPowerLED();
+        audioSuccess.GetComponent<AudioSource>().Play();
+
+    }
+
+    IEnumerator PullLever()
+    {
+        yield return new WaitUntil(() => notePlayed[notePlayed.Length - 1] == true);
+        lever.GetComponent<InteractableActionsMPLever>().PullLeverUp();
+
+    }
 
     IEnumerator QueueAudio(int note, int position, int time)
     {

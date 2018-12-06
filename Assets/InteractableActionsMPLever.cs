@@ -26,8 +26,13 @@ public class InteractableActionsMPLever : MonoBehaviour {
         bool resultFromManager = musicManager.GetComponent<MusicPuzzleManagerScriptV2>().CheckCorrect();
         if (!resultFromManager)
         {
-            StartCoroutine(AutoPullUpLever());
+            //StartCoroutine(AutoPullUpLever());
         }
+    }
+
+    public void PullLeverUp()
+    {
+        animator.SetTrigger("wrongAnswer");
     }
 
     IEnumerator AutoPullUpLever()
