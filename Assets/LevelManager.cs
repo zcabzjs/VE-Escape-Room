@@ -14,6 +14,9 @@ public class LevelManager : MonoBehaviour {
 
     public static bool utilitiesRoomUnlocked = false;
 
+    public static DeskLightToggle bedroomDeskLightToggle;
+    
+
     public static void CompleteTutorial()
     {
         tutorialCompleted = true;
@@ -22,12 +25,26 @@ public class LevelManager : MonoBehaviour {
         hasElectricity = false;
         GameObject.Find("AmazonEcho").GetComponent<AudioSource>().Pause();
         // Insert voiceline here? Or cues...
+        if (bedroomDeskLightToggle.lightOn)
+        {
+            bedroomDeskLightToggle.toggleLight();
+            bedroomDeskLightToggle.lightOn = true;
+        }
+        
+
+
     }
 
     public static void RecoverElectricity()
     {
         hasElectricity = true;
         // Do we turn shit on here? (Laptop and music)
+        if (bedroomDeskLightToggle.lightOn)
+        {
+            bedroomDeskLightToggle.toggleLight();
+            // So that lights that should be on, turn on when power comes back
+            bedroomDeskLightToggle.lightOn = true;
+        }
         // Insert voiceline and cues here..
     }
 
