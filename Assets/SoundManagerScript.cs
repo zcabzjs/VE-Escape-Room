@@ -5,6 +5,10 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour {
 
     public GameObject[] audioNoteSources;
+    public int[] timing;
+    public float timingScaling;
+
+    bool[] notePlayed;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +22,7 @@ public class SoundManagerScript : MonoBehaviour {
 
     public void PlayEntry(int[] notes)
     {
+        /*
         for (int x = 0; x < notes.Length; x++)
         {
             if(notes[x] == -1)
@@ -28,5 +33,44 @@ public class SoundManagerScript : MonoBehaviour {
                 audioNoteSources[notes[x]].GetComponent<AudioSource>().Play();
             }
         }
+        */
+        for (int x = 0; x < notes.Length; x++)
+        {
+            if (notes[x] == -1)
+            {
+                continue;
+            }
+            else
+            {
+                StartCoroutine(QueueAudio(notes[x], x, timing[x]));
+            }
+        }
     }
+
+    // Timing 
+
+    IEnumerator QueueAudio(int note, int position, int time)
+    {
+        if (position != 0)
+        {
+            yield return new WaitUntil(() => notePlayed[position - 1] == true);
+        }
+        if (note != -1) {
+            audioNoteSources[note].GetComponent<AudioSource>().Play();
+        }
+        yield return new WaitForSeconds(time * timingScaling);
+        notePlayed[position] = true;
+
+        // Code to execute after the delay
+    }
+
+    /*
+    IEnumerator PlayAudio(int note, int time)
+    {
+
+        yield return new WaitForSeconds(time);
+        audioNoteSources[notes[x]].GetComponent<AudioSource>().Play();
+
+        // Code to execute after the delay
+    }*/
 }

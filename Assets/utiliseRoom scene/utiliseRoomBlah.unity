@@ -11551,6 +11551,8 @@ MonoBehaviour:
   - {fileID: 1507807872}
   - {fileID: 570031835}
   - {fileID: 1743695494}
+  timing: 0600000001000000010000000400000002000000040000000200000004000000
+  timingScaling: 1
 --- !u!1 &598614574
 GameObject:
   m_ObjectHideFlags: 0
