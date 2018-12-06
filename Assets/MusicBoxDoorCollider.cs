@@ -39,11 +39,7 @@ public class MusicBoxDoorCollider : MonoBehaviour {
         {
             door.GetComponent<InteractableActionsMPDoor>().isKeyOnDoor = true;
             // Activate interactables
-
-            for (int x = 0; x < interactablesDisabled.Length; x++)
-            {
-                interactablesDisabled[x].GetComponent<Interactable>().enabled = true;
-            }
+            //GameObject.Find("MusicPuzzlePanel").SetActive(true);
 
             return true;
         }

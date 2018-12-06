@@ -8,7 +8,7 @@ public class SoundManagerScript : MonoBehaviour {
     public int[] timing;
     public float timingScaling;
 
-    bool[] notePlayed;
+    bool[] notePlayed = new bool[] {false, false, false, false, false, false, false, false };
 
 	// Use this for initialization
 	void Start () {
@@ -20,8 +20,17 @@ public class SoundManagerScript : MonoBehaviour {
 		
 	}
 
+    void ResetNotePlayed()
+    {
+        for (int x = 0; x < notePlayed.Length; x++)
+        {
+            notePlayed[x] = false;
+        }
+    }
+
     public void PlayEntry(int[] notes)
     {
+        ResetNotePlayed();
         /*
         for (int x = 0; x < notes.Length; x++)
         {
