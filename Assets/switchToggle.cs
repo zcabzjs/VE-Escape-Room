@@ -5,7 +5,8 @@ using UnityEngine;
 public class switchToggle : MonoBehaviour {
 
     bool switchOn = true;
-    public ceilingLightToggle ceilingLightToggle;
+    public ceilingLightToggle[] ceilingLights;
+    
     
     GameObject switchPivot;
     Light ceilingLight;
@@ -33,7 +34,10 @@ public class switchToggle : MonoBehaviour {
         switchOn = false;
         //Debug.Log("Off!");
         switchPivot.transform.Rotate(20, 0, 0);
-        ceilingLightToggle.turnOff();
+        foreach(ceilingLightToggle c in ceilingLights)
+        {
+            c.turnOff();
+        }
     }
 
     void switchTurnOn()
@@ -42,6 +46,9 @@ public class switchToggle : MonoBehaviour {
         switchOn = true;
         Debug.Log("On!");
         switchPivot.transform.Rotate(-20, 0, 0);
-        ceilingLightToggle.turnOn();
+        foreach (ceilingLightToggle c in ceilingLights)
+        {
+            c.turnOn();
+        }
     }
 }

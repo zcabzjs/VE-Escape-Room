@@ -12,6 +12,8 @@ public class LevelManager : MonoBehaviour {
 
     public static bool usbInserted;           //  flag for after USB is inserted (Assuming USB can only be put in after theres electricity...)
 
+    public static bool utilitiesRoomUnlocked = false;
+
     public static void CompleteTutorial()
     {
         tutorialCompleted = true;
@@ -35,5 +37,11 @@ public class LevelManager : MonoBehaviour {
         // Cues to submit coursework I guess...
         // Change to monitor?
 
+    }
+
+    public static void UnlockUtiliesRoom()
+    {
+        utilitiesRoomUnlocked = true;
+        // Cues when unlocking room
     }
 }
