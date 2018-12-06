@@ -69,8 +69,8 @@ public class ViveController : MonoBehaviour
 
             if (h != 0 || v != 0)
             {
-                transform.position += new Vector3(speed * speedMultipler * Mathf.Sin(totalAngle * Mathf.Deg2Rad), 0f, speed * speedMultipler * Mathf.Cos(totalAngle * Mathf.Deg2Rad));
-                //transform.Translate(new Vector3(speed * speedMultipler * Mathf.Sin(totalAngle * Mathf.Deg2Rad), 0f, speed * speedMultipler * Mathf.Cos(totalAngle * Mathf.Deg2Rad)));
+                //transform.position += new Vector3(speed * speedMultipler * Mathf.Sin(totalAngle * Mathf.Deg2Rad), 0f, speed * speedMultipler * Mathf.Cos(totalAngle * Mathf.Deg2Rad));
+                transform.Translate(new Vector3(speed * speedMultipler * Mathf.Sin(totalAngle * Mathf.Deg2Rad), 0f, speed * speedMultipler * Mathf.Cos(totalAngle * Mathf.Deg2Rad)));
             }
         }
 

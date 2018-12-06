@@ -26,6 +26,10 @@ public class MusicPuzzleManagerScriptV2 : MonoBehaviour {
             }
         }
         soundManager.GetComponent<SoundManagerScript>().PlayEntry(entries, result);
+        if (result)
+        {
+            LevelManager.RecoverElectricity();
+        }
         return result;
     }
 
