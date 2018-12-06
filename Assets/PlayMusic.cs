@@ -15,6 +15,11 @@ public class PlayMusic : MonoBehaviour {
 		
 	}
 
+    void Trigger()
+    {
+        PlayMusicClip();
+    }
+
     void PlayMusicClip()
     {
         audioSource.Play();
