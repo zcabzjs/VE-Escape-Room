@@ -24,8 +24,8 @@ public class ViveController : MonoBehaviour
         Vector2 touchPadValue = touchPadAction.GetAxis(SteamVR_Input_Sources.Any);
         if (touchPadValue != Vector2.zero)
         {
-            //print(touchPadValue.x);
-            //print(touchPadValue.y);
+            print(touchPadValue.x);
+            print(touchPadValue.y);
 
             float h = touchPadValue.x;
             float v = touchPadValue.y;
@@ -69,9 +69,22 @@ public class ViveController : MonoBehaviour
 
             if (h != 0 || v != 0)
             {
+                Rigidbody rb = GetComponent<Rigidbody>();
+                rb.constraints &= ~RigidbodyConstraints.FreezePositionX;
+                rb.constraints &= ~RigidbodyConstraints.FreezePositionZ;
                 //transform.position += new Vector3(speed * speedMultipler * Mathf.Sin(totalAngle * Mathf.Deg2Rad), 0f, speed * speedMultipler * Mathf.Cos(totalAngle * Mathf.Deg2Rad));
                 transform.Translate(new Vector3(speed * speedMultipler * Mathf.Sin(totalAngle * Mathf.Deg2Rad), 0f, speed * speedMultipler * Mathf.Cos(totalAngle * Mathf.Deg2Rad)));
+            } else
+            {
+                Rigidbody rb = GetComponent<Rigidbody>();
+                //rb.constraints = RigidbodyConstraints.FreezePositionX;
+                //rb.constraints = RigidbodyConstraints.FreezePositionZ;
             }
+        } else
+        {
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.constraints = RigidbodyConstraints.FreezeAll;
+            transform.Translate(new Vector3(0f, 0f, 0f));
         }
 
     }
