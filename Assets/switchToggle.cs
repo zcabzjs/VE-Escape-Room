@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class switchToggle : MonoBehaviour {
 
-    bool switchOn = true;
+    bool switchOn = false;
     public ceilingLightToggle[] ceilingLights;
     
     

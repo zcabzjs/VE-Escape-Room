@@ -5,6 +5,8 @@ using Valve.VR.InteractionSystem;
 
 public class AttachUSB : MonoBehaviour {
 
+    public GameObject laptop;
+
     //public GameObject usbHolder;
     bool inHolderRange = false;
     Vector3 usbHolderPosition;
@@ -40,7 +42,7 @@ public class AttachUSB : MonoBehaviour {
             GameObject hand = this.transform.parent.gameObject;
             hand.GetComponent<Hand>().DetachObject(this.gameObject);
 
-            
+            LevelManager.InsertUSB();
             
             //usbHolderPosition = other.transform.position;
             //usbHolderRotation = other.transform.rotation;

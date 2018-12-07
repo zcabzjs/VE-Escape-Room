@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour {
 
     public static bool hasElectricity = true;        //  flag for after electricity is triggered
 
-    public static bool usbInserted;           //  flag for after USB is inserted (Assuming USB can only be put in after theres electricity...)
+    public static bool usbInserted = false;           //  flag for after USB is inserted (Assuming USB can only be put in after theres electricity...)
 
     public static bool utilitiesRoomUnlocked = false;
 

@@ -5,7 +5,6 @@ using UnityEngine;
 public class InteractableActionsLaptop : MonoBehaviour {
 
     public GameObject alexa;
-
     public GameObject wallSocket;
     public Material[] materials;
 
@@ -66,6 +65,7 @@ public class InteractableActionsLaptop : MonoBehaviour {
 
     public void turnOn()
     {
+        onState = true;
         Material[] currentMaterials;
         currentMaterials = meshRenderer.materials;
         currentMaterials[2] = materials[1];
@@ -74,9 +74,26 @@ public class InteractableActionsLaptop : MonoBehaviour {
 
     public void turnOff()
     {
+        onState = false;
         Material[] currentMaterials;
         currentMaterials = meshRenderer.materials;
         currentMaterials[2] = materials[0];
         meshRenderer.materials = currentMaterials;
+    }
+
+    public void UploadWork()
+    {
+        if (!LevelManager.usbInserted)
+        {
+            Material[] currentMaterials;
+            currentMaterials = meshRenderer.materials;
+            currentMaterials[2] = materials[2];
+            meshRenderer.materials = currentMaterials;
+        } else if (LevelManager.usbInserted) {
+            Material[] currentMaterials;
+            currentMaterials = meshRenderer.materials;
+            currentMaterials[2] = materials[3];
+            meshRenderer.materials = currentMaterials;
+        }
     }
 }
