@@ -61,6 +61,7 @@ public class SoundManagerScript : MonoBehaviour {
         if (!correct)
         {
             StartCoroutine(PullLever());
+            StartCoroutine(TurnOnFailureLED());
         } else
         {
             StartCoroutine(TurnOnSuccessLED());
