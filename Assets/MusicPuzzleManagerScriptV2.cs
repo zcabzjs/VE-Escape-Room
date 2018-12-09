@@ -33,8 +33,18 @@ public class MusicPuzzleManagerScriptV2 : MonoBehaviour {
         return result;
     }
 
-    public void TurnOnPowerLED()
+    public void PowerLEDSuccess()
     {
         powerLight.GetComponent<MeshRenderer>().material = materials[1];
+    }
+
+    public void PowerLEDFailed()
+    {
+        powerLight.GetComponent<MeshRenderer>().material = materials[3];
+    }
+
+    public void PowerLEDNormal()
+    {
+        powerLight.GetComponent<MeshRenderer>().material = materials[2];
     }
 }
