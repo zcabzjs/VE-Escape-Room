@@ -19,6 +19,7 @@ public class UITutorialDpad : MonoBehaviour {
             if (SteamVR_Input._default.inActions.TriggerAction.GetStateDown(SteamVR_Input_Sources.Any))
             {
                 //UITutorialNext.GetComponent<MeshRenderer>().enabled = true;
+                LevelManager.GameFinished();
                 Destroy(GameObject.Find("UITutorialDpad"));
             }
         }

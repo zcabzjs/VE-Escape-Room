@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class LevelManager : MonoBehaviour {
 
@@ -60,5 +61,13 @@ public class LevelManager : MonoBehaviour {
     {
         utilitiesRoomUnlocked = true;
         // Cues when unlocking room
+    }
+
+    public static void GameFinished()
+    {
+        //set start color
+        SteamVR_Fade.Start(Color.clear, 0f);
+        //set and start fade to
+        SteamVR_Fade.Start(Color.white, 2f);
     }
 }
