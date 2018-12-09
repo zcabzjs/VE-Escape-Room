@@ -63,18 +63,26 @@ public class SoundManagerScript : MonoBehaviour {
             StartCoroutine(PullLever());
         } else
         {
-            StartCoroutine(TurnOnLED());
+            StartCoroutine(TurnOnSuccessLED());
         }
     }
 
     // Timing 
 
-    IEnumerator TurnOnLED()
+    IEnumerator TurnOnSuccessLED()
     {
         yield return new WaitUntil(() => notePlayed[notePlayed.Length - 1] == true);
-        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().TurnOnPowerLED();
+        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().PowerLEDSuccess();
         audioSuccess.GetComponent<AudioSource>().Play();
+    }
 
+    IEnumerator TurnOnFailureLED()
+    {
+        yield return new WaitUntil(() => notePlayed[notePlayed.Length - 1] == true);
+        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().PowerLEDFailed();
+        yield return new WaitForSeconds(1);
+        musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().PowerLEDNormal();
+        //audioSuccess.GetComponent<AudioSource>().Play();
     }
 
     IEnumerator PullLever()
