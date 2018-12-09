@@ -123,6 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36138895}
   - component: {fileID: 36138894}
+  - component: {fileID: 36138896}
   m_Layer: 0
   m_Name: Laptop
   m_TagString: Untagged
@@ -158,10 +159,32 @@ Transform:
   - {fileID: 1237363284}
   - {fileID: 1889728718}
   - {fileID: 581972074}
-  - {fileID: 1823855587}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 85, z: 0}
+--- !u!114 &36138896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36138893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
 --- !u!1 &187189834
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +196,7 @@ GameObject:
   - component: {fileID: 187189835}
   - component: {fileID: 187189837}
   - component: {fileID: 187189836}
+  - component: {fileID: 187189838}
   m_Layer: 0
   m_Name: Cube.004
   m_TagString: Untagged
@@ -240,6 +264,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 187189834}
   m_Mesh: {fileID: 4300004, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+--- !u!64 &187189838
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 187189834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
 --- !u!1001 &417320297
 Prefab:
   m_ObjectHideFlags: 0
@@ -293,6 +331,7 @@ GameObject:
   - component: {fileID: 581972074}
   - component: {fileID: 581972076}
   - component: {fileID: 581972075}
+  - component: {fileID: 581972077}
   m_Layer: 0
   m_Name: Cube.035
   m_TagString: Untagged
@@ -358,6 +397,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 581972073}
   m_Mesh: {fileID: 4300010, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+--- !u!64 &581972077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 581972073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300010, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
 --- !u!1 &674762814
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +422,7 @@ GameObject:
   - component: {fileID: 674762815}
   - component: {fileID: 674762817}
   - component: {fileID: 674762816}
+  - component: {fileID: 674762818}
   m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
@@ -435,6 +489,20 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 674762814}
+  m_Mesh: {fileID: 4300002, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+--- !u!64 &674762818
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674762814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
 --- !u!1 &924122280
 GameObject:
@@ -665,6 +733,7 @@ GameObject:
   - component: {fileID: 1237363284}
   - component: {fileID: 1237363286}
   - component: {fileID: 1237363285}
+  - component: {fileID: 1237363287}
   m_Layer: 0
   m_Name: Cube.005
   m_TagString: Untagged
@@ -731,6 +800,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1237363283}
   m_Mesh: {fileID: 4300006, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+--- !u!64 &1237363287
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237363283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
 --- !u!1 &1329328484
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +825,7 @@ GameObject:
   - component: {fileID: 1329328485}
   - component: {fileID: 1329328487}
   - component: {fileID: 1329328486}
+  - component: {fileID: 1329328488}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -806,6 +890,20 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1329328484}
+  m_Mesh: {fileID: 4300008, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+--- !u!64 &1329328488
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1329328484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
 --- !u!1 &1560466034
 GameObject:
@@ -1294,7 +1392,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh84682
+  m_Name: pb_Mesh37340
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1542,50 +1640,6 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4276d5af170f0dc4884e875efb12b150, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1823855586
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1814724668002976, guid: df0ca4e98d4871a4888a5b684dc77246,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1823855587}
-  - component: {fileID: 1823855588}
-  m_Layer: 0
-  m_Name: USB Holder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1823855587
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4877915773323780, guid: df0ca4e98d4871a4888a5b684dc77246,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1823855586}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2013965, y: 0.56600016, z: -1.0696309}
-  m_LocalScale: {x: 1.003015, y: 1.1000003, z: 1.0969831}
-  m_Children: []
-  m_Father: {fileID: 36138895}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1823855588
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 65942960431354112, guid: df0ca4e98d4871a4888a5b684dc77246,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1823855586}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.079075776, y: 0.038689613, z: 0.1458538}
-  m_Center: {x: -0.00065510994, y: 0.0045033097, z: 0.01197852}
 --- !u!1 &1889728717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,6 +1651,7 @@ GameObject:
   - component: {fileID: 1889728718}
   - component: {fileID: 1889728720}
   - component: {fileID: 1889728719}
+  - component: {fileID: 1889728721}
   m_Layer: 0
   m_Name: Cube.007
   m_TagString: Untagged
@@ -1663,4 +1718,18 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889728717}
+  m_Mesh: {fileID: 4300000, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+--- !u!64 &1889728721
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889728717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
