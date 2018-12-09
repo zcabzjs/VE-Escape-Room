@@ -81,7 +81,7 @@ public class SoundManagerScript : MonoBehaviour {
     {
         yield return new WaitUntil(() => notePlayed[notePlayed.Length - 1] == true);
         musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().PowerLEDFailed();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         musicPuzzleManager.GetComponent<MusicPuzzleManagerScriptV2>().PowerLEDNormal();
         //audioSuccess.GetComponent<AudioSource>().Play();
     }
