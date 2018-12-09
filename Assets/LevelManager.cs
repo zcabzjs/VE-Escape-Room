@@ -16,6 +16,8 @@ public class LevelManager : MonoBehaviour {
     public static bool utilitiesRoomUnlocked = false;
 
     public static DeskLightToggle bedroomDeskLightToggle;
+
+    public GameObject customCameraScript;
     
 
     public static void CompleteTutorial()
@@ -31,9 +33,7 @@ public class LevelManager : MonoBehaviour {
             bedroomDeskLightToggle.toggleLight();
             bedroomDeskLightToggle.lightOn = true;
         }
-        
-
-
+       
     }
 
     public static void RecoverElectricity()
@@ -63,11 +63,10 @@ public class LevelManager : MonoBehaviour {
         // Cues when unlocking room
     }
 
-    public static void GameFinished()
+    public static void GameCompleted()
     {
-        //set start color
-        SteamVR_Fade.Start(Color.clear, 0f);
-        //set and start fade to
-        SteamVR_Fade.Start(Color.white, 2f);
+        GameObject camera = GameObject.Find("VRCamera");
+        camera.GetComponent<CustomCameraScript>().FadeToBlack();
     }
+
 }
