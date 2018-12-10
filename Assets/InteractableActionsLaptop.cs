@@ -49,8 +49,9 @@ public class InteractableActionsLaptop : MonoBehaviour {
     IEnumerator EndTutorial()
     {
         yield return new WaitForSecondsRealtime(2);
-        GameObject.Find("Hint08").GetComponent<AudioSource>().Play();
         turnOff();
+        yield return new WaitForSecondsRealtime(0.5f);
+        GameObject.Find("Hint08").GetComponent<AudioSource>().Play();
         //yield return new WaitForSecondsRealtime(2);
         //GameObject.Find("Hint09").GetComponent<AudioSource>().Play();
         LevelManager.CompleteTutorial();
@@ -99,16 +100,33 @@ public class InteractableActionsLaptop : MonoBehaviour {
             currentMaterials = meshRenderer.materials;
             currentMaterials[2] = materials[2];
             meshRenderer.materials = currentMaterials;
+            StartCoroutine(AudioHint22());
+            StartCoroutine(AudioHint23());
         } else if (LevelManager.usbInserted) {
             Material[] currentMaterials;
             currentMaterials = meshRenderer.materials;
             currentMaterials[2] = materials[3];
             meshRenderer.materials = currentMaterials;
+            StartCoroutine(AudioHint25());
             LevelManager.GameCompleted();
         }
     }
 
+    IEnumerator AudioHint22()
+    {
+        yield return new WaitForSeconds(0.5f);
+        GameObject.Find("Hint22").GetComponent<AudioSource>().Play();
+    }
 
+    IEnumerator AudioHint23()
+    {
+        yield return new WaitForSeconds(5f);
+        GameObject.Find("Hint23").GetComponent<AudioSource>().Play();
+    }
 
-
+    IEnumerator AudioHint25()
+    {
+        yield return new WaitForSeconds(0.5f);
+        GameObject.Find("Hint25").GetComponent<AudioSource>().Play();
+    }
 }

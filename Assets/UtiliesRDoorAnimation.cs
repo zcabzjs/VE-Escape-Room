@@ -18,6 +18,8 @@ public class UtiliesRDoorAnimation : MonoBehaviour {
         {
             doorOpen = !doorOpen;
             anim.SetBool("openUtilitiesRoomDoor", doorOpen);
+            return;
         }
+        GameObject.Find("Hint11").GetComponent<AudioSource>().Play();
     }
 }

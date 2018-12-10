@@ -26,6 +26,8 @@ public class LaptopEndInteraction : MonoBehaviour {
 
     void Trigger()
     {
+        GameObject.Find("Hint26").GetComponent<AudioSource>().Play();
+        StartCoroutine(ShockHorrorAudio());
         turnOnEndLaptop();
         endGame.triggerLaptop();
         StartCoroutine(quitGame());
@@ -44,5 +46,10 @@ public class LaptopEndInteraction : MonoBehaviour {
         yield return new WaitForSecondsRealtime(4);
         SteamVR_Fade.Start(Color.black, 2f);
         Application.Quit();
+    }
+    IEnumerator ShockHorrorAudio()
+    {
+        yield return new WaitForSecondsRealtime(3);
+        GameObject.Find("Hint27").GetComponent<AudioSource>().Play();
     }
 }

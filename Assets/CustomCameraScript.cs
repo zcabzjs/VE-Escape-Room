@@ -12,7 +12,8 @@ public class CustomCameraScript : MonoBehaviour {
 
     IEnumerator FadeToColour()
     {
-        yield return new WaitForSeconds(3);
+
+        yield return new WaitForSeconds(4);
         //set start color
         SteamVR_Fade.Start(Color.clear, 0f);
         //set and start fade to

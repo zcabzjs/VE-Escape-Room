@@ -20,7 +20,7 @@ public class EndGameScreenInteraction : MonoBehaviour {
 
     IEnumerator ChangeFromCreditsToTheEnd()
     {
-        for (float timer = 5; timer >= 0; timer -= Time.deltaTime)
+        for (float timer = 3; timer >= 0; timer -= Time.deltaTime)
         {
             if (laptopTriggered)
             {
