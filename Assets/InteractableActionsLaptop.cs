@@ -42,15 +42,24 @@ public class InteractableActionsLaptop : MonoBehaviour {
         {
             GameObject.Find("UITutorialGrab").GetComponent<MeshRenderer>().enabled = true;
             GameObject.Find("UITutorialGrab").GetComponent<UITutorialGrab>().PlayAudioHint();
+            StartCoroutine(AudioHint07());
         }
     }
 
     IEnumerator EndTutorial()
     {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(2);
+        GameObject.Find("Hint08").GetComponent<AudioSource>().Play();
         turnOff();
+        //yield return new WaitForSecondsRealtime(2);
+        //GameObject.Find("Hint09").GetComponent<AudioSource>().Play();
         LevelManager.CompleteTutorial();
-        
+    }
+
+    IEnumerator AudioHint07()
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        GameObject.Find("Hint07").GetComponent<AudioSource>().Play();
     }
 
     // Use this for initialization
@@ -98,4 +107,8 @@ public class InteractableActionsLaptop : MonoBehaviour {
             LevelManager.GameCompleted();
         }
     }
+
+
+
+
 }

@@ -24,7 +24,7 @@ public class UITutorialGrab : MonoBehaviour {
 
     IEnumerator AudioHint03()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(7);
         AudioHint.GetComponent<AudioSource>().Play();
     }
 

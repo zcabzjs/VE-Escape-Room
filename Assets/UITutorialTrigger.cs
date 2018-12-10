@@ -6,7 +6,8 @@ using Valve.VR;
 public class UITutorialTrigger : MonoBehaviour {
 
     public GameObject UITutorialNext;
-    public GameObject AudioHint;
+    public GameObject AudioHint2;
+    public GameObject AudioHint6;
 
     // Use this for initialization
     void Start()
@@ -14,15 +15,26 @@ public class UITutorialTrigger : MonoBehaviour {
         
     }
 
-    public void PlayAudioHint()
+    public void PlayAudioHint2()
     {
         StartCoroutine(AudioHint02());
     }
 
     IEnumerator AudioHint02()
     {
-        yield return new WaitForSeconds(1);
-        AudioHint.GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(5);
+        AudioHint2.GetComponent<AudioSource>().Play();
+    }
+
+    public void PlayAudioHint6()
+    {
+        StartCoroutine(AudioHint06());
+    }
+
+    IEnumerator AudioHint06()
+    {
+        yield return new WaitForSeconds(0.5f);
+        AudioHint6.GetComponent<AudioSource>().Play();
     }
 
     // Update is called once per frame
