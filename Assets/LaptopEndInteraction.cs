@@ -47,6 +47,7 @@ public class LaptopEndInteraction : MonoBehaviour {
         SteamVR_Fade.Start(Color.black, 2f);
         Application.Quit();
     }
+
     IEnumerator ShockHorrorAudio()
     {
         yield return new WaitForSecondsRealtime(3);
