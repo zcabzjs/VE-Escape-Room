@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Valve.VR;
 public class LaptopEndInteraction : MonoBehaviour {
 
     public Material[] materials;
@@ -28,6 +28,7 @@ public class LaptopEndInteraction : MonoBehaviour {
     {
         turnOnEndLaptop();
         endGame.triggerLaptop();
+        StartCoroutine(quitGame());
     }
 
     void turnOnEndLaptop()
@@ -36,5 +37,12 @@ public class LaptopEndInteraction : MonoBehaviour {
         currentMaterials = meshRenderer.materials;
         currentMaterials[2] = materials[0];
         meshRenderer.materials = currentMaterials;
+    }
+
+    IEnumerator quitGame()
+    {
+        yield return new WaitForSecondsRealtime(4);
+        SteamVR_Fade.Start(Color.black, 2f);
+        Application.Quit();
     }
 }

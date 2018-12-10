@@ -39,7 +39,8 @@ public class EndGameScreenInteraction : MonoBehaviour {
 
     void switchToPlotTwistEnd()
     {
-        meshRenderer.material = materials[1];      
+        meshRenderer.material = materials[1];  
+        
     }
 
     public void triggerLaptop()
