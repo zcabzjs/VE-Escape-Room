@@ -41,6 +41,7 @@ public class InteractableActionsLaptop : MonoBehaviour {
         if (GameObject.Find("UITutorialGrab") != null)
         {
             GameObject.Find("UITutorialGrab").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("UITutorialGrab").GetComponent<UITutorialGrab>().PlayAudioHint();
         }
     }
 
@@ -94,6 +95,7 @@ public class InteractableActionsLaptop : MonoBehaviour {
             currentMaterials = meshRenderer.materials;
             currentMaterials[2] = materials[3];
             meshRenderer.materials = currentMaterials;
+            LevelManager.GameCompleted();
         }
     }
 }

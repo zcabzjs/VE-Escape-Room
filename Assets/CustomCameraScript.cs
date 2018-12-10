@@ -17,6 +17,7 @@ public class CustomCameraScript : MonoBehaviour {
         SteamVR_Fade.Start(Color.clear, 0f);
         //set and start fade to
         SteamVR_Fade.Start(Color.black, 5f);
+        SteamVR_LoadLevel.Begin("EndScene");
     }
 
 }

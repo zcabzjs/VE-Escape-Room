@@ -11,6 +11,7 @@ public class UITriggerCollider : MonoBehaviour {
             Debug.Log("Person Walked through");
             Destroy(GameObject.Find("UITriggerCollider"));
             GameObject.Find("UITutorialTrigger").GetComponent<MeshRenderer>().enabled = true;
+            GameObject.Find("UITutorialTrigger").GetComponent<UITutorialTrigger>().PlayAudioHint();
         }
     }
 }
