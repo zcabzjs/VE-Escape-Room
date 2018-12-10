@@ -40,7 +40,7 @@ public class SceneManager : MonoBehaviour {
 
         //First uses Steam VR transition, 2nd uses Unity transition
 
-        //SteamVR_LoadLevel.Begin("Scene3");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene3");
+        SteamVR_LoadLevel.Begin("Scene3");
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("Scene3");
     }
 }
