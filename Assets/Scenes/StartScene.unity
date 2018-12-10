@@ -236,7 +236,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100006, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
   - {fileID: 2100012, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
-  - {fileID: 2100000, guid: c24c527b2103cd04e9fcb71b00ebb708, type: 2}
+  - {fileID: 2100000, guid: 73391d232de1d3344a4e88fdc4d9b021, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
   internalProcessPath: 
   internalProcessArgs: 
   loadAdditive: 0
-  loadAsync: 0
+  loadAsync: 1
   loadingScreen: {fileID: 2800000, guid: 63f798a66da8c64448d117bb16b3befc, type: 3}
   progressBarEmpty: {fileID: 2800000, guid: 63f798a66da8c64448d117bb16b3befc, type: 3}
   progressBarFull: {fileID: 2800000, guid: 63f798a66da8c64448d117bb16b3befc, type: 3}
@@ -741,7 +741,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: c24c527b2103cd04e9fcb71b00ebb708, type: 2}
+  - {fileID: 2100000, guid: d250442d7aedd164fafd89be2dcc95b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -776,7 +776,7 @@ Transform:
   m_GameObject: {fileID: 1061952153}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: 1.9950001, y: 1.6, z: -0.76388395}
-  m_LocalScale: {x: 0.14, y: 0.030000014, z: 0.11}
+  m_LocalScale: {x: 0.14, y: 0.030000014, z: 0.089}
   m_Children: []
   m_Father: {fileID: 1665211655}
   m_RootOrder: 0
@@ -1680,7 +1680,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 61cab0cb9ce8b1e4080715e8ff859a66, type: 3}
+      objectReference: {fileID: 2100000, guid: bb4d5a7d0d1a3164f88651cd37bff4c3, type: 3}
     - target: {fileID: 23616247815781118, guid: 4276d5af170f0dc4884e875efb12b150,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
